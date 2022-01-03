@@ -1,0 +1,778 @@
+Desktop is 1920 x 1080 @ 60 Hz
+New context 0x424c0e8 created with attributes:
+Initialize engine version: 2017.4.22f1 (eb4bc6fa7f1d)
+GfxDevice: creating device client; threaded=1
+Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 470.94
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced
+_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_g
+pu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_t
+exture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
+_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 69517544
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.026 seconds
+OnLevelWasLoaded was found on LeanTween
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+New context 0x4df83e8 created with attributes:
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 0.749000 ms
+Resolution requested: 1920x1080
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Configuring logging from embedded logConfig asset.
+[Logging] Logging successfully configured from embedded logConfig asset.
+
+[Logging] Logging start.
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/playerSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/playerSettings.xml".
+
+[PlayerSettingsManager] PlayerSettings: InvertTiltControls: False, TouchpadInvert: False, RumbleEnabled: True, MusicVolume: 100, SFXVolume: 100, AntiAliasing: 8, VRModeRequested: True, SecondScreenMode: InteractiveManual, VSync: 1, AccessibilitySettings: UnlockAllMissions: false, Vetos: Empty, Empty, Empty, DisabledControlTypes: None LanguageCode: nl
+
+[ProgressionManager] Loading progression data...
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/progression.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/progression.xml".
+
+[ProgressionManager] Progression summary:
+
+[ProgressionManager] Last Unlocked Bomb Classification: 2-nl
+
+[ProgressionManager] MissionID: gameoverviewtutorial Beaten: True
+
+[ProgressionManager] MissionID: controlstutorial Beaten: True
+
+[ProgressionManager] MissionID: firsttime Beaten: True
+
+[ProgressionManager] MissionID: somethingoldsomethingnew Beaten: True
+
+[ProgressionManager] MissionID: doubleyourmoney Beaten: True
+
+[ProgressionManager] MissionID: onestepup Beaten: True
+
+[ProgressionManager] MissionID: pickupthepace Beaten: True
+
+[ProgressionManager] MissionID: ahiddenmessage Beaten: True
+
+[ProgressionManager] MissionID: somethingsdifferent Beaten: True
+
+[ProgressionManager] MissionID: giantleap Beaten: True
+
+[ProgressionManager] MissionID: fairgame Beaten: True
+
+[ProgressionManager] MissionID: pickupthepacetwo Beaten: True
+
+[ProgressionManager] MissionID: noroomforerror Beaten: True
+
+[ProgressionManager] MissionID: eightminutes Beaten: True
+
+[ProgressionManager] MissionID: asmallwrinkle Beaten: True
+
+[ProgressionManager] MissionID: payattention Beaten: True
+
+[ProgressionManager] Disarmed component: BigButton
+
+[ProgressionManager] Disarmed component: Wires
+
+[ProgressionManager] Disarmed component: Keypad
+
+[ProgressionManager] Disarmed component: Memory
+
+[ProgressionManager] Disarmed component: Simon
+
+[ProgressionManager] Disarmed component: WhosOnFirst
+
+[ProgressionManager] Disarmed component: Maze
+
+[ProgressionManager] Disarmed component: Morse
+
+[ProgressionManager] Disarmed component: Venn
+
+[ProgressionManager] Disarmed component: Password
+
+[ProgressionManager] Disarmed component: WireSequence
+
+[LoadingManager] Checking for language preference...
+
+[LoadingManager] LanguageCode player setting is: "nl"
+
+I2Loc: SavedLanguage is "Dutch". System language is "English"
+I2Loc: Setting language to Dutch (nl)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 1.697000 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.525000 ms  DeleteObjects: 0.005000 ms)
+
+Initializing platform...
+[PlayerSettingsManager] Saving player settings.
+
+[FileUtilityHelper] Attempting to save "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/playerSettings.xml"...
+
+[FileUtilityHelper] Successfully saved "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/playerSettings.xml".
+
+[LinuxPlatformUtil] Instantiating FixedCameraRig.
+
+[AbstractPlatformUtil] RenderScale: 0 Resolution: 0x0
+
+[Localization] OnBeforeLocalizeEvent!
+
+[Localization] OnLocalizeEvent!
+
+[KTInputManager] Requested setting control type to: Gaze
+
+[KTInputManager] Control type not supported. Not changing control type.
+
+[KTInputManager] creating haptic
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+[Rules] Loading all manual meta data...
+
+[Rules] Found valid manual metadata: LanguageCode: ar, ManualVersion: 3-ar, LockCode: 463, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: cs, ManualVersion: 2-cs, LockCode: 058, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: da, ManualVersion: 1-da, LockCode: 354, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: de, ManualVersion: 1-de, LockCode: 558, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: en, ManualVersion: 1, LockCode: 241, Seed: 1, Revision: 4
+
+[Rules] Found valid manual metadata: LanguageCode: eo, ManualVersion: 2-eo, LockCode: 547, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: es, ManualVersion: 1-es, LockCode: 925, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: fi, ManualVersion: 1-fi, LockCode: 873, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: fr, ManualVersion: 1-fr, LockCode: 750, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: he, ManualVersion: 2-he, LockCode: 614, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: hu, ManualVersion: 2-hu, LockCode: 517, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: ko, ManualVersion: 1-ko, LockCode: 964, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: it, ManualVersion: 1-it, LockCode: 345, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: ja, ManualVersion: 1-ja, LockCode: 122, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: nb, ManualVersion: 2-nb, LockCode: 477, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: nl, ManualVersion: 2-nl, LockCode: 474, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: pl, ManualVersion: 2-pl, LockCode: 856, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: pt-BR, ManualVersion: 2-pt-BR, LockCode: 622, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: pt-PT, ManualVersion: 3-pt-PT, LockCode: 806, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: ro, ManualVersion: 1-ro, LockCode: 626, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: ru, ManualVersion: 2-ru, LockCode: 317, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: sv, ManualVersion: 1-sv, LockCode: 453, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: th, ManualVersion: 1-th, LockCode: 248, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: tr, ManualVersion: 1-tr, LockCode: 993, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: uk, ManualVersion: 1-uk, LockCode: 775, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: zh-CN, ManualVersion: 1-zh-CN, LockCode: 931, Seed: 1, Revision: 1
+
+[Rules] Found valid manual metadata: LanguageCode: zh-TW, ManualVersion: 1-zh-TW, LockCode: 917, Seed: 1, Revision: 1
+
+[Rules] 27 valid manual meta data loaded.
+
+[Rules] Generating rules for language code "nl"
+
+[Rules] Generating BombRules...
+
+[MorseCodeRuleSetGenerator] 36 characters added: abcdefghijklmnopqrstuvwxyz0123456789
+
+[BombRules] BombRules: LanguageCode: nl, ManualVersion: 2-nl, LockCode: 474, Seed: 1, Revision: 1
+
+[BombRules] WireSet Rules:
+3 wires:
+If there are no red wires, cut the second wire.
+Otherwise, if the last wire is white, cut the last wire.
+Otherwise, if there is more than one blue wire, cut the last blue wire.
+Otherwise, cut the last wire.
+
+4 wires:
+If there is more than one red wire and the last digit of the serial number is odd, cut the last red wire.
+Otherwise, if the last wire is yellow and there are no red wires, cut the first wire.
+Otherwise, if there is exactly one blue wire, cut the first wire.
+Otherwise, if there is more than one yellow wire, cut the last wire.
+Otherwise, cut the second wire.
+
+5 wires:
+If the last wire is black and the last digit of the serial number is odd, cut the fourth wire.
+Otherwise, if there is exactly one red wire and there is more than one yellow wire, cut the first wire.
+Otherwise, if there are no black wires, cut the second wire.
+Otherwise, cut the first wire.
+
+6 wires:
+If there are no yellow wires and the last digit of the serial number is odd, cut the third wire.
+Otherwise, if there is exactly one yellow wire and there is more than one white wire, cut the fourth wire.
+Otherwise, if there are no red wires, cut the last wire.
+Otherwise, cut the fourth wire.
+
+
+
+[BombRules] Button Rules:
+Initial rules
+If the button is blue and the button says "Abort", hold the button and refer to "Releasing a Held Button".
+If there is more than 1 battery on the bomb and the button says "Detonate", press and immediately release the button.
+If the button is white and there is a lit indicator with label CAR, hold the button and refer to "Releasing a Held Button".
+If there are more than 2 batteries on the bomb and there is a lit indicator with label FRK, press and immediately release the button.
+If the button is yellow, hold the button and refer to "Releasing a Held Button".
+If the button is red and the button says "Hold", press and immediately release the button.
+If none of the above apply, hold the button and refer to "Releasing a Held Button".
+
+On Hold Rules
+If Blue strip:, release when the countdown timer has a 4 in any position..
+If White strip:, release when the countdown timer has a 1 in any position..
+If Yellow strip:, release when the countdown timer has a 5 in any position..
+If Any other color strip:, release when the countdown timer has a 1 in any position..
+
+
+[BombRules] Keypad Rules:
+Ϙ,Ѧ,ƛ,Ϟ,Ѭ,ϗ,Ͽ
+Ӭ,Ϙ,Ͽ,Ҩ,☆,ϗ,¿
+©,Ѽ,Ҩ,Җ,Ԇ,ƛ,☆
+Ϭ,¶,ѣ,Ѭ,Җ,¿,ټ
+Ψ,ټ,ѣ,Ͼ,¶,ѯ,★
+Ϭ,Ӭ,҂,ӕ,Ψ,Ҋ,Ω
+
+
+[BombRules] Simon Rules:
+HASVOWEL:
+0 Strikes: Blue, Red, Yellow, Green, 
+1 Strikes: Yellow, Green, Blue, Red, 
+2 Strikes: Green, Red, Yellow, Blue, 
+OTHERWISE:
+0 Strikes: Blue, Yellow, Green, Red, 
+1 Strikes: Red, Blue, Yellow, Green, 
+2 Strikes: Yellow, Green, Blue, Red, 
+
+
+[BombRules] Who's On First Rules:
+Display Word "Look At" Index:
+WhosOnFirst/rule_DISPLAY1 ("JA"): 2, WhosOnFirst/rule_DISPLAY2 ("EERST"): 1, WhosOnFirst/rule_DISPLAY3 ("SCHERM"): 5, WhosOnFirst/rule_DISPLAY4 ("OKE"): 1, WhosOnFirst/rule_DISPLAY5 ("ZEGT"): 5, WhosOnFirst/rule_DISPLAY6 ("NIETS"): 2, WhosOnFirst/rule_DISPLAY7 (""): 4, WhosOnFirst/rule_DISPLAY8 ("BLANCO"): 3, WhosOnFirst/rule_DISPLAY9 ("NEE"): 5, WhosOnFirst/rule_DISPLAY10 ("LIJDEN"): 2, WhosOnFirst/rule_DISPLAY11 ("WAD"): 5, WhosOnFirst/rule_DISPLAY12 ("WAT"): 3, WhosOnFirst/rule_DISPLAY13 ("LEIDEN"): 3, WhosOnFirst/rule_DISPLAY14 ("HOEZO"): 4, WhosOnFirst/rule_DISPLAY15 ("HEI"): 4, WhosOnFirst/rule_DISPLAY16 ("HIJ"): 5, WhosOnFirst/rule_DISPLAY17 ("JOU"): 3, WhosOnFirst/rule_DISPLAY18 ("JOUW"): 5, WhosOnFirst/rule_DISPLAY19 ("LICHT"): 3, WhosOnFirst/rule_DISPLAY20 ("ZOON"): 3, WhosOnFirst/rule_DISPLAY21 ("ZO'N"): 0, WhosOnFirst/rule_DISPLAY22 ("ZIJ"): 5, WhosOnFirst/rule_DISPLAY23 ("ZEI"): 4, WhosOnFirst/rule_DISPLAY24 ("Z'N"): 3, WhosOnFirst/rule_DISPLAY25 ("U"): 2, WhosOnFirst/rule_DISPLAY26 ("UW"): 5, WhosOnFirst/rule_DISPLAY27 ("ZEG"): 1, WhosOnFirst/rule_DISPLAY28 ("LIGT"): 5, 
+
+Precedent Map:
+WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"): WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT")
+WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"): WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST")
+WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"): WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN")
+WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"): WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST")
+WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"): WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?")
+WhosOnFirst/rule_KEYPAD_group1_6 ("JA"): WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT")
+WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"): WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS")
+WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"): WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST")
+WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"): WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS")
+WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"): WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST")
+WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"): WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA")
+WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"): WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS")
+WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"): WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN")
+WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"): WhosOnFirst/rule_KEYPAD_group1_10 ("RECHTS"), WhosOnFirst/rule_KEYPAD_group1_11 ("MIDDEN"), WhosOnFirst/rule_KEYPAD_group1_6 ("JA"), WhosOnFirst/rule_KEYPAD_group1_1 ("WAD?"), WhosOnFirst/rule_KEYPAD_group1_14 ("DRUK"), WhosOnFirst/rule_KEYPAD_group1_12 ("OKE"), WhosOnFirst/rule_KEYPAD_group1_5 ("NIETS"), WhosOnFirst/rule_KEYPAD_group1_8 ("OHHH"), WhosOnFirst/rule_KEYPAD_group1_4 ("BLANCO"), WhosOnFirst/rule_KEYPAD_group1_9 ("LINKS"), WhosOnFirst/rule_KEYPAD_group1_2 ("EERST"), WhosOnFirst/rule_KEYPAD_group1_7 ("OH OH"), WhosOnFirst/rule_KEYPAD_group1_3 ("NEE"), WhosOnFirst/rule_KEYPAD_group1_13 ("WACHT")
+WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"): WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER")
+WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"): WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW")
+WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"): WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR")
+WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"): WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST")
+WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"): WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU")
+WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"): WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT")
+WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"): WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?")
+WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"): WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?")
+WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"): WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS")
+WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"): WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR")
+WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"): WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU")
+WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"): WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS")
+WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"): WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA")
+WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"): WhosOnFirst/rule_KEYPAD_group2_4 ("ZO'N"), WhosOnFirst/rule_KEYPAD_group2_11 ("DOOR"), WhosOnFirst/rule_KEYPAD_group2_6 ("ONDER"), WhosOnFirst/rule_KEYPAD_group2_5 ("LAATST"), WhosOnFirst/rule_KEYPAD_group2_12 ("VAST"), WhosOnFirst/rule_KEYPAD_group2_10 ("KLAAR"), WhosOnFirst/rule_KEYPAD_group2_8 ("HA HA"), WhosOnFirst/rule_KEYPAD_group2_9 ("WAT?"), WhosOnFirst/rule_KEYPAD_group2_7 ("AH HA"), WhosOnFirst/rule_KEYPAD_group2_1 ("JOU"), WhosOnFirst/rule_KEYPAD_group2_14 ("ZOALS"), WhosOnFirst/rule_KEYPAD_group2_13 ("ZO ALS"), WhosOnFirst/rule_KEYPAD_group2_2 ("JOUW"), WhosOnFirst/rule_KEYPAD_group2_3 ("LICHT")
+
+
+[BombRules] Memory Rules:
+Stage 1:
+If the display is 1, press the button in the second position.
+If the display is 2, press the button in the second position.
+If the display is 3, press the button in the third position.
+If the display is 4, press the button in the fourth position.
+
+Stage 2:
+If the display is 1, press the button labeled "4".
+If the display is 2, press the button in the same position as you pressed in stage 1.
+If the display is 3, press the button in the first position.
+If the display is 4, press the button in the same position as you pressed in stage 1.
+
+Stage 3:
+If the display is 1, press the button with the same label you pressed in stage 2.
+If the display is 2, press the button with the same label you pressed in stage 1.
+If the display is 3, press the button in the third position.
+If the display is 4, press the button labeled "4".
+
+Stage 4:
+If the display is 1, press the button in the same position as you pressed in stage 1.
+If the display is 2, press the button in the first position.
+If the display is 3, press the button in the same position as you pressed in stage 2.
+If the display is 4, press the button in the same position as you pressed in stage 2.
+
+Stage 5:
+If the display is 1, press the button with the same label you pressed in stage 1.
+If the display is 2, press the button with the same label you pressed in stage 2.
+If the display is 3, press the button with the same label you pressed in stage 4.
+If the display is 4, press the button with the same label you pressed in stage 3.
+
+
+
+[BombRules] Morse Code Rules:
+FrequencyTermMap: 
+MorseComponent/rule_Option17 ("spons"): 3.505 MHz
+MorseComponent/rule_Option16 ("vlieg"): 3.515 MHz
+MorseComponent/rule_Option20 ("stuks"): 3.522 MHz
+MorseComponent/rule_Option1 ("ijzer"): 3.532 MHz
+MorseComponent/rule_Option5 ("opzij"): 3.535 MHz
+MorseComponent/rule_Option11 ("poker"): 3.542 MHz
+MorseComponent/rule_Option19 ("regie"): 3.545 MHz
+MorseComponent/rule_Option18 ("friet"): 3.552 MHz
+MorseComponent/rule_Option21 ("namen"): 3.555 MHz
+MorseComponent/rule_Option8 ("motor"): 3.565 MHz
+MorseComponent/rule_Option14 ("markt"): 3.572 MHz
+MorseComponent/rule_Option13 ("kunst"): 3.575 MHz
+MorseComponent/rule_Option10 ("amber"): 3.582 MHz
+MorseComponent/rule_Option9 ("abdij"): 3.592 MHz
+MorseComponent/rule_Option3 ("droog"): 3.595 MHz
+MorseComponent/rule_Option7 ("bezig"): 3.600 MHz
+
+
+[BombRules] Venn Wire Rules:
+[Red:False Blue:False Symbol:False LED:False]: Cut
+[Red:False Blue:False Symbol:False LED:True]: DoNotCut
+[Red:False Blue:False Symbol:True LED:False]: Cut
+[Red:False Blue:False Symbol:True LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:False Blue:True Symbol:False LED:False]: CutIfSerialEven
+[Red:False Blue:True Symbol:False LED:True]: CutIfParallelPortPresent
+[Red:False Blue:True Symbol:True LED:False]: DoNotCut
+[Red:False Blue:True Symbol:True LED:True]: CutIfParallelPortPresent
+[Red:True Blue:False Symbol:False LED:False]: CutIfSerialEven
+[Red:True Blue:False Symbol:False LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:True Blue:False Symbol:True LED:False]: Cut
+[Red:True Blue:False Symbol:True LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:True Blue:True Symbol:False LED:False]: CutIfSerialEven
+[Red:True Blue:True Symbol:False LED:True]: CutIfSerialEven
+[Red:True Blue:True Symbol:True LED:False]: CutIfParallelPortPresent
+[Red:True Blue:True Symbol:True LED:True]: DoNotCut
+
+
+[BombRules] Wire Sequence Rules:
+BLACK Wires: First: [A, B or C], Second: [A or C], Third: [B], Fourth: [A or C], Fifth: [B], Sixth: [B or C], Seventh: [A or B], Eighth: [C], Ninth: [C], 
+BLUE Wires: First: [B], Second: [A or C], Third: [B], Fourth: [A], Fifth: [B], Sixth: [B or C], Seventh: [C], Eighth: [A or C], Ninth: [A], 
+RED Wires: First: [C], Second: [B], Third: [A], Fourth: [A or C], Fifth: [B], Sixth: [A or C], Seventh: [A, B or C], Eighth: [A or B], Ninth: [B], 
+
+
+[BombRules] Maze Rules:
+Maze 0: 6,320,400,384,384,256,288,96,320,288,352,96,224,192,160,192,32,192,288,320,288,320,160,320,160,96,96,96,352,224,352,224,192,144,128,384,160
+Maze 1: 6,352,320,384,256,384,416,64,160,320,176,448,288,224,320,160,320,384,160,320,160,320,160,320,288,64,304,96,448,160,96,224,192,128,384,384,160
+Maze 2: 6,320,416,320,384,384,288,96,448,128,384,288,96,192,384,384,384,160,96,448,288,320,400,384,160,320,160,192,384,384,288,192,384,384,400,384,160
+Maze 3: 6,336,384,384,400,256,288,192,384,288,352,96,96,352,320,160,96,96,224,96,96,320,32,96,352,96,96,224,96,192,160,192,128,384,128,384,416
+Maze 4: 6,352,320,256,384,384,416,96,96,192,288,320,288,96,96,352,96,96,96,96,64,160,192,32,112,64,160,336,416,224,96,192,416,192,384,384,160
+Maze 5: 6,448,384,256,288,320,288,320,384,160,192,160,96,192,384,416,320,432,96,352,320,384,128,384,160,80,160,320,384,288,352,192,384,160,448,128,160
+Maze 6: 6,320,384,288,320,384,288,112,320,160,192,416,112,96,224,320,256,288,96,192,288,224,96,96,96,320,160,320,160,192,32,192,384,160,448,384,160
+Maze 7: 6,448,256,384,384,384,288,320,32,320,288,448,32,96,224,96,208,288,96,208,288,96,352,96,96,320,160,192,32,96,96,192,384,384,160,224,224
+Maze 8: 6,448,384,256,384,400,288,320,384,32,448,384,160,96,336,160,320,384,288,96,224,320,160,320,160,64,384,160,352,192,288,192,384,384,128,416,224
+
+
+[BombRules] Password Rules:
+Possibilities: BUURT, ELFDE, EMMER, FEEST, HALLO, HOEZO, IJKEN, IJSCO, INTRO, JAWEL, JOKER, JUIST, KLIKO, KRUIK, KWAST, KWEEK, MOTJE, OEVER, OMEGA, OPENT, OPERA, OPSTA, PIANO, ROBOT, SETJE, SPOOR, TAFEL, THEMA, TURBO, VADER, WAAKS, WATER, WEIDE, ZALIG, ZESDE
+
+[BombRules] Needy Knob Rules:
+Up Position:
+OOXOXX
+XXXXOX
+
+XOXOXO
+OXXOXX
+
+Down Position:
+OXXOOX
+XXXXOX
+
+XOXOXO
+OXOOOX
+
+Left Position:
+OOOOXO
+XOOXXX
+
+OOOOXO
+OOOXXO
+
+Right Position:
+XOXXXX
+XXXOXO
+
+XOXXOO
+XXXOXO
+
+
+
+[Rules] BombRules generation complete.
+
+First time loading the title scene: instantiating OneTimeLoad objects!
+Initializing BuildInfoManager...
+Bundle Version: 1.9.24
+InControl (version 1.6.15 build 9080)
+[SecondScreenInteractiveManual] Changing state from Loading to Loading
+
+[KTInputManager] InControl Platform: LINUX 5.15 VOIDLINUX ROLLING 64BIT PC
+
+[KTInputManager] InControl Devices: 0
+
+[KTInputManager] Active device: None () [Supported] [Platform: LINUX 5.15 VOIDLINUX ROLLING 64BIT PC]
+
+[KTInputManager] Active SecondScreen device: None () [Supported] [Platform: LINUX 5.15 VOIDLINUX ROLLING 64BIT PC]
+
+External log config file (/mnt/HDD/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/logConfig.xml) does not exist. Using embedded config.
+Saving external log config file (logConfig.xml) for user editing.
+[UserManager] Initialized UserManager
+
+[ServicesSteam] Steamworks.NET is initialized. Now logged in as EiscoMania!
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 440 unused Assets to reduce memory usage. Loaded Objects now: 7207.
+Total: 5.891000 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.105000 ms MarkObjects: 5.341000 ms  DeleteObjects: 0.146000 ms)
+
+No Playlist Controllers exist in the Scene. Music will not play.
+[SecondScreenManager] VRMode=false, disabling.
+
+[SecondScreenManager] SecondScreen mode changed from Disabled to Disabled
+
+[Localization] OnBeforeLocalizeEvent!
+
+[Localization] OnLocalizeEvent!
+
+[LoadingManager] Loading: mainScene
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[LoadingManager] Finished loading: 0.08 sec(s)
+
+[LoadingManager] Could not find any connected and supported InControl devices. Prompting user to connect, if the current platform has a native prompt...
+
+[LoadingManager] Received mouse input to continue.
+
+[KTInputManager] Requested setting control type to: Mouse
+
+[KTInputManager] Control type supported. Settting control type to: Mouse
+
+[LoadingManager] Engagement complete. Loading main scene...
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/demoSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/demoSettings.xml".
+
+[DemoManager] Demo settings: [Mode: Off], [DisableAlarmClockSound: False], [SkipVerificationFlow: False], [ForgetLastGameSettings: False]
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/tournamentSettings.xml": Could not find file "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/tournamentSettings.xml".
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from user path, looking for tournamentSettings.xml next to executable.
+
+[FileUtilityHelper] Attempting to load "tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "tournamentSettings.xml": Could not find file "/mnt/HDD/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/tournamentSettings.xml".
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from executable path. Creating default tournament settings.
+
+[TournamentManager] Tournament settings: Name: Test Tournament
+Teams: 2
+Missions: firsttime,somethingoldsomethingnew,onestepup
+TieBreaker: firsttime
+Turn Order: Snake
+SeedStyle: GenerateSame 
+PacingEvents: ForceOneMinuteLeftOnly
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/modSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/modSettings.xml".
+
+[ModSettingsManager] Assets.Scripts.Settings.ModSettings
+
+[StatsManager] Loading stats from stats.xml...
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/stats.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/stats.xml".
+
+[StatsManager] Recorded Stats:
+
+[StatsManager] totalmodulesdisarmed: IntValue: 161
+
+[StatsManager] moduletypeprogress: IntValue: 11
+
+[StatsManager] thebasicsprogress: IntValue: 4
+
+[StatsManager] moderateprogress: IntValue: 7
+
+[StatsManager] needyprogress: IntValue: 2
+
+[StatsManager] challengingprogress: IntValue: 0
+
+[StatsManager] extremeprogress: IntValue: 0
+
+[StatsManager] exoticprogress: IntValue: 0
+
+[StatsManager] totalbombsdefused: IntValue: 19
+
+[StatsManager] totalstrikes: IntValue: 43
+
+[StatsManager] totalbombsexploded: IntValue: 25
+
+[StatsManager] Recorded Achievements:
+
+[StatsManager] firstbomb: unlocked at 12/27/2021 18:35:06
+
+UnloadTime: 1.124000 ms
+[MissionManager] MissionManager initialized. 34 missions available.
+
+[RecordManager] Loading records from records.xml...
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/records.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/records.xml".
+
+[RecordManager] Loading best time records from best_times.xml...
+
+[FileUtilityHelper] Attempting to load "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/best_times.xml"...
+
+[FileUtilityHelper] Successfully loaded "/home/eisezimmerman/.config/unity3d/Steel Crate Games/Keep Talking and Nobody Explodes/best_times.xml".
+
+[RecordManager] 47 recent records found:
+
+[RecordManager] Record: 47 Mission: payattention Result: Defused Seed: 1791880553 Modules: 5 Solved: 4 TimeElapsed: 180.5277  RealTimeElapsed: 188.5283 Strikes: 0
+
+[RecordManager] Record: 46 Mission: asmallwrinkle Result: Defused Seed: 199819866 Modules: 6 Solved: 5 TimeElapsed: 158.2061  RealTimeElapsed: 166.209 Strikes: 0
+
+[RecordManager] Record: 45 Mission: asmallwrinkle Result: ExplodedDueToStrikes Seed: 1814606274 Modules: 6 Solved: 2 TimeElapsed: 63.59299  RealTimeElapsed: 71.58765 Strikes: 1
+
+[RecordManager] Record: 44 Mission: eightminutes Result: Defused Seed: 456373928 Modules: 8 Solved: 8 TimeElapsed: 312.6819  RealTimeElapsed: 315.8944 Strikes: 1
+
+[RecordManager] Record: 43 Mission: eightminutes Result: Incomplete Seed: 1892903405 Modules: 8 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 0 Strikes: 0
+
+[RecordManager] Record: 42 Mission: eightminutes Result: ExplodedDueToTime Seed: 1551282063 Modules: 8 Solved: 7 TimeElapsed: 480.0009  RealTimeElapsed: 488 Strikes: 0
+
+[RecordManager] Record: 41 Mission: eightminutes Result: ExplodedDueToTime Seed: 153128718 Modules: 8 Solved: 7 TimeElapsed: 480.0061  RealTimeElapsed: 432.8975 Strikes: 1
+
+[RecordManager] Record: 40 Mission: eightminutes Result: ExplodedDueToTime Seed: 1806702678 Modules: 8 Solved: 3 TimeElapsed: 480.0071  RealTimeElapsed: 375.5171 Strikes: 2
+
+[RecordManager] Record: 39 Mission: eightminutes Result: ExplodedDueToTime Seed: 2032225447 Modules: 8 Solved: 7 TimeElapsed: 480.003  RealTimeElapsed: 392.791 Strikes: 2
+
+[RecordManager] Record: 38 Mission: eightminutes Result: Incomplete Seed: 671560793 Modules: 8 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 0 Strikes: 0
+
+[RecordManager] Record: 37 Mission: eightminutes Result: ExplodedDueToStrikes Seed: 1269156756 Modules: 8 Solved: 3 TimeElapsed: 243.0373  RealTimeElapsed: 214.9645 Strikes: 3
+
+[RecordManager] Record: 36 Mission: eightminutes Result: ExplodedDueToTime Seed: 755562124 Modules: 8 Solved: 7 TimeElapsed: 480.0016  RealTimeElapsed: 395.1898 Strikes: 2
+
+[RecordManager] Record: 35 Mission: noroomforerror Result: Defused Seed: 1256735015 Modules: 5 Solved: 5 TimeElapsed: 200.5838  RealTimeElapsed: 208.5884 Strikes: 0
+
+[RecordManager] Record: 34 Mission: giantleap Result: Defused Seed: 470415624 Modules: 4 Solved: 4 TimeElapsed: 276.3677  RealTimeElapsed: 251.712 Strikes: 2
+
+[RecordManager] Record: 33 Mission: giantleap Result: ExplodedDueToTime Seed: 1266215402 Modules: 4 Solved: 3 TimeElapsed: 300.0044  RealTimeElapsed: 307.9975 Strikes: 0
+
+[RecordManager] Record: 32 Mission: giantleap Result: ExplodedDueToTime Seed: 412836362 Modules: 4 Solved: 2 TimeElapsed: 300.0014  RealTimeElapsed: 244.1034 Strikes: 2
+
+[RecordManager] Record: 31 Mission: eightminutes Result: ExplodedDueToTime Seed: 2054620630 Modules: 8 Solved: 6 TimeElapsed: 480.0031  RealTimeElapsed: 428.8965 Strikes: 1
+
+[RecordManager] Record: 30 Mission: noroomforerror Result: Defused Seed: 1526548548 Modules: 5 Solved: 5 TimeElapsed: 222.1313  RealTimeElapsed: 230.1399 Strikes: 0
+
+[RecordManager] Record: 29 Mission: noroomforerror Result: ExplodedDueToStrikes Seed: 11669332 Modules: 5 Solved: 3 TimeElapsed: 85.20927  RealTimeElapsed: 93.21387 Strikes: 1
+
+[RecordManager] Record: 28 Mission: pickupthepacetwo Result: Defused Seed: 766612755 Modules: 5 Solved: 5 TimeElapsed: 104.642  RealTimeElapsed: 112.6467 Strikes: 0
+
+[RecordManager] Record: 27 Mission: pickupthepacetwo Result: ExplodedDueToTime Seed: 1976218283 Modules: 5 Solved: 4 TimeElapsed: 150.0056  RealTimeElapsed: 157.9966 Strikes: 0
+
+[RecordManager] Record: 26 Mission: pickupthepacetwo Result: ExplodedDueToTime Seed: 550894364 Modules: 5 Solved: 4 TimeElapsed: 150.0047  RealTimeElapsed: 157.9974 Strikes: 0
+
+[RecordManager] Record: 25 Mission: pickupthepacetwo Result: ExplodedDueToTime Seed: 1121814662 Modules: 5 Solved: 4 TimeElapsed: 150.0046  RealTimeElapsed: 158.0002 Strikes: 0
+
+[RecordManager] Record: 24 Mission: fairgame Result: Defused Seed: 799083699 Modules: 5 Solved: 5 TimeElapsed: 229.9103  RealTimeElapsed: 237.9164 Strikes: 0
+
+[RecordManager] Record: 23 Mission: fairgame Result: ExplodedDueToTime Seed: 579036911 Modules: 5 Solved: 3 TimeElapsed: 300.0025  RealTimeElapsed: 257.2145 Strikes: 1
+
+[RecordManager] Record: 22 Mission: giantleap Result: Defused Seed: 609484070 Modules: 4 Solved: 4 TimeElapsed: 263.1175  RealTimeElapsed: 251.1653 Strikes: 1
+
+[RecordManager] Record: 21 Mission: giantleap Result: ExplodedDueToStrikes Seed: 1744748958 Modules: 4 Solved: 2 TimeElapsed: 259.3924  RealTimeElapsed: 234.4971 Strikes: 3
+
+[RecordManager] Record: 20 Mission: giantleap Result: Incomplete Seed: 1210388542 Modules: 4 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 0 Strikes: 0
+
+[RecordManager] Record: 19 Mission: giantleap Result: ExplodedDueToTime Seed: 1427431229 Modules: 4 Solved: 3 TimeElapsed: 300.0023  RealTimeElapsed: 302.7009 Strikes: 1
+
+[RecordManager] Record: 18 Mission: somethingsdifferent Result: Defused Seed: 690422145 Modules: 3 Solved: 3 TimeElapsed: 156.2262  RealTimeElapsed: 164.2273 Strikes: 0
+
+[RecordManager] Record: 17 Mission: somethingsdifferent Result: ExplodedDueToTime Seed: 953789520 Modules: 3 Solved: 2 TimeElapsed: 300.0021  RealTimeElapsed: 286.5925 Strikes: 2
+
+[RecordManager] Record: 16 Mission: somethingsdifferent Result: ExplodedDueToStrikes Seed: 1465690905 Modules: 3 Solved: 0 TimeElapsed: 135.8686  RealTimeElapsed: 121.3165 Strikes: 3
+
+[RecordManager] Record: 15 Mission: ahiddenmessage Result: Defused Seed: 316363637 Modules: 3 Solved: 3 TimeElapsed: 213.5037  RealTimeElapsed: 219.871 Strikes: 1
+
+[RecordManager] Record: 14 Mission: pickupthepace Result: Defused Seed: 127288987 Modules: 3 Solved: 3 TimeElapsed: 174.4872  RealTimeElapsed: 177.5773 Strikes: 1
+
+[RecordManager] Record: 13 Mission: pickupthepace Result: ExplodedDueToTime Seed: 1421537281 Modules: 3 Solved: 2 TimeElapsed: 180.0052  RealTimeElapsed: 188.0032 Strikes: 0
+
+[RecordManager] Record: 12 Mission: onestepup Result: Defused Seed: 1329650141 Modules: 4 Solved: 4 TimeElapsed: 277.5984  RealTimeElapsed: 268.4167 Strikes: 2
+
+[RecordManager] Record: 11 Mission: firsttime Result: Defused Seed: 348722818 Modules: 3 Solved: 3 TimeElapsed: 228.599  RealTimeElapsed: 234.241 Strikes: 1
+
+[RecordManager] Record: 10 Mission: ahiddenmessage Result: ExplodedDueToStrikes Seed: 1046801764 Modules: 3 Solved: 1 TimeElapsed: 251.7395  RealTimeElapsed: 209.1345 Strikes: 3
+
+[RecordManager] Record: 9 Mission: pickupthepace Result: Defused Seed: 408004771 Modules: 3 Solved: 3 TimeElapsed: 163.9973  RealTimeElapsed: 172.0002 Strikes: 0
+
+[RecordManager] Record: 8 Mission: pickupthepace Result: ExplodedDueToStrikes Seed: 952986611 Modules: 3 Solved: 0 TimeElapsed: 103.2959  RealTimeElapsed: 89.83655 Strikes: 3
+
+[RecordManager] Record: 7 Mission: pickupthepace Result: ExplodedDueToTime Seed: 1658471347 Modules: 3 Solved: 2 TimeElapsed: 180.007  RealTimeElapsed: 188.0051 Strikes: 0
+
+[RecordManager] Record: 6 Mission: pickupthepace Result: ExplodedDueToTime Seed: 854254234 Modules: 3 Solved: 2 TimeElapsed: 180.0051  RealTimeElapsed: 175.8772 Strikes: 1
+
+[RecordManager] Record: 5 Mission: onestepup Result: Defused Seed: 1817694212 Modules: 4 Solved: 4 TimeElapsed: 220.303  RealTimeElapsed: 228.3086 Strikes: 0
+
+[RecordManager] Record: 4 Mission: doubleyourmoney Result: Defused Seed: 345604057 Modules: 6 Solved: 6 TimeElapsed: 234.4154  RealTimeElapsed: 242.4238 Strikes: 0
+
+[RecordManager] Record: 3 Mission: somethingoldsomethingnew Result: Defused Seed: 1819574310 Modules: 3 Solved: 3 TimeElapsed: 269.1835  RealTimeElapsed: 262.3081 Strikes: 1
+
+[RecordManager] Record: 2 Mission: somethingoldsomethingnew Result: ExplodedDueToTime Seed: 1042060093 Modules: 3 Solved: 2 TimeElapsed: 300.0036  RealTimeElapsed: 281.9384 Strikes: 1
+
+[RecordManager] Record: 1 Mission: firsttime Result: Defused Seed: 127612978 Modules: 3 Solved: 3 TimeElapsed: 268.5356  RealTimeElapsed: 276.5391 Strikes: 0
+
+[RecordManager] Recent Record Summary: Success: 19 ExplodeDueToStrikes: 7 ExplodeDueToTime: 18
+
+[RecordManager] 14 Best Time records found:
+
+[RecordManager] Record: 11 Mission: firsttime Result: Defused Seed: 348722818 Modules: 3 Solved: 3 TimeElapsed: 228.599  RealTimeElapsed: 234.241 Strikes: 1
+
+[RecordManager] Record: 3 Mission: somethingoldsomethingnew Result: Defused Seed: 1819574310 Modules: 3 Solved: 3 TimeElapsed: 269.1835  RealTimeElapsed: 262.3081 Strikes: 1
+
+[RecordManager] Record: 4 Mission: doubleyourmoney Result: Defused Seed: 345604057 Modules: 6 Solved: 6 TimeElapsed: 234.4154  RealTimeElapsed: 242.4238 Strikes: 0
+
+[RecordManager] Record: 5 Mission: onestepup Result: Defused Seed: 1817694212 Modules: 4 Solved: 4 TimeElapsed: 220.303  RealTimeElapsed: 228.3086 Strikes: 0
+
+[RecordManager] Record: 9 Mission: pickupthepace Result: Defused Seed: 408004771 Modules: 3 Solved: 3 TimeElapsed: 163.9973  RealTimeElapsed: 172.0002 Strikes: 0
+
+[RecordManager] Record: 15 Mission: ahiddenmessage Result: Defused Seed: 316363637 Modules: 3 Solved: 3 TimeElapsed: 213.5037  RealTimeElapsed: 219.871 Strikes: 1
+
+[RecordManager] Record: 18 Mission: somethingsdifferent Result: Defused Seed: 690422145 Modules: 3 Solved: 3 TimeElapsed: 156.2262  RealTimeElapsed: 164.2273 Strikes: 0
+
+[RecordManager] Record: 22 Mission: giantleap Result: Defused Seed: 609484070 Modules: 4 Solved: 4 TimeElapsed: 263.1175  RealTimeElapsed: 251.1653 Strikes: 1
+
+[RecordManager] Record: 24 Mission: fairgame Result: Defused Seed: 799083699 Modules: 5 Solved: 5 TimeElapsed: 229.9103  RealTimeElapsed: 237.9164 Strikes: 0
+
+[RecordManager] Record: 28 Mission: pickupthepacetwo Result: Defused Seed: 766612755 Modules: 5 Solved: 5 TimeElapsed: 104.642  RealTimeElapsed: 112.6467 Strikes: 0
+
+[RecordManager] Record: 35 Mission: noroomforerror Result: Defused Seed: 1256735015 Modules: 5 Solved: 5 TimeElapsed: 200.5838  RealTimeElapsed: 208.5884 Strikes: 0
+
+[RecordManager] Record: 44 Mission: eightminutes Result: Defused Seed: 456373928 Modules: 8 Solved: 8 TimeElapsed: 312.6819  RealTimeElapsed: 315.8944 Strikes: 1
+
+[RecordManager] Record: 46 Mission: asmallwrinkle Result: Defused Seed: 199819866 Modules: 6 Solved: 5 TimeElapsed: 158.2061  RealTimeElapsed: 166.209 Strikes: 0
+
+[RecordManager] Record: 47 Mission: payattention Result: Defused Seed: 1791880553 Modules: 5 Solved: 4 TimeElapsed: 180.5277  RealTimeElapsed: 188.5283 Strikes: 0
+
+[SceneManager] Creating game states...
+
+[PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Prefabs/ControlsPoster/ControlsPoster_mouse"
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+[MaterialOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
+
+[LeaderboardBulkSubmissionWorker] Submitting all unreported leaderboard scores.
+
+[LeaderboardBulkSubmissionWorker] Finished submitting all unreported leaderboard scores.
+
+
+Unloading 211 unused Assets to reduce memory usage. Loaded Objects now: 37259.
+Total: 30.413000 ms (FindLiveObjects: 1.045000 ms CreateObjectMapping: 0.492000 ms MarkObjects: 28.043000 ms  DeleteObjects: 0.833000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+[ServicesSteam] Sent request to store stats to Steam.
+
+[SceneManager] Fading in...
+
+[State] Enter SetupState
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 37319.
+Total: 33.820000 ms (FindLiveObjects: 1.246000 ms CreateObjectMapping: 1.184000 ms MarkObjects: 31.358000 ms  DeleteObjects: 0.032000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 37319.
+Total: 33.709000 ms (FindLiveObjects: 1.411000 ms CreateObjectMapping: 0.521000 ms MarkObjects: 31.755000 ms  DeleteObjects: 0.022000 ms)
+
+[ServicesSteam] Received user stats from Steam for game id 341800
+
+[ServicesSteam] Steam achievement id allthebasics was unlocked remotely but is not unlocked locally. Recording unlock locally...
+
+[ServicesSteam] Steam achievement id allmoderate was unlocked remotely but is not unlocked locally. Recording unlock locally...
+
+[ServicesSteam] Steam achievement id disarmeachmodule was unlocked remotely but is not unlocked locally. Recording unlock locally...
+
+[ServicesSteam] Steam achievement id 100modulesdisarmed was unlocked remotely but is not unlocked locally. Recording unlock locally...
+
+[ServicesSteam] Finished merging existing stats and achievements
+
+[ServicesSteam] Sent request to store stats to Steam.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 1.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 1.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 2.
+
+[PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Prefabs/DossierMenu/DossierControls_Mouse"
+
+[CommonMenuUtil] ReturnToLauncher
+
+[SceneManager] Fading out and exiting.
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 7fa5b5150640 -> priority: 1 
+  Thread -> id: 7fa5b494f640 -> priority: 1 
+  Thread -> id: 7fa5940b6640 -> priority: 1 
+  Thread -> id: 7fa5938b5640 -> priority: 1 
+  Thread -> id: 7fa5930b4640 -> priority: 1 
+  Thread -> id: 7fa5928b3640 -> priority: 1 

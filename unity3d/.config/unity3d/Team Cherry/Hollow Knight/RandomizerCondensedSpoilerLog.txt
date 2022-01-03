@@ -1,0 +1,102 @@
+Randomization completed with seed: 499027562
+
+----------Major Progression:----------
+Mothwing/Shade Cloak:
+- Geo Rock-King's Pass Above Fury
+- Geo Rock-Crystal Peak Lower Middle
+- Geo Rock-Crystal Peak Before Crystal Heart
+- Rancid Egg-City of Tears Pleasure House
+Mantis Claw:
+- Geo Rock-Broken Elevator 1
+- Lifeblood Cocoon-Failed Tramway
+Monarch Wings:
+- Lore Tablet-Pilgrim's Way 2
+- Grimmkin Flame-Resting Grounds
+Crystal Heart:
+- Charm Notch-Colosseum
+- Grub-Hallownest Crown
+Isma's Tear:
+- Vessel Fragment-Basin [3000 Geo]
+- King's Idol-Great Hopper
+Dream Nail:
+- Baldur Shell
+- Geo Rock-Mantis Village Below Lore
+- Grub-Crossroads Center
+- Geo Rock-Beast's Den Below Egg
+
+----------Spells:----------
+Vengeful Spirit:
+- Geo Rock-Below Gorb
+- Geo Rock-Resting Grounds Catacombs Grub
+- Geo Rock-Dark Deepnest Above Grub 2
+Desolate Dive:
+- Geo Rock-Hive Below Root
+- Crystal Peak Map [112 Geo]
+- Grub-Greenpath Journal
+Howling Wraiths:
+- Geo Rock-Broken Bridge Lower Dupe
+- Soul Totem-White Palace Hub
+- Grimmkin Flame-Kingdom's Edge
+
+----------Nail Arts:----------
+Cyclone Slash <---at---> Soul Totem-Crossroads Goam Journal
+Dash Slash <---at---> Grub-Fog Canyon
+Great Slash <---at---> Grubsong [5 Grub]
+
+----------Dreamers:----------
+Lurien <---at---> Geo Rock-Greenpath Waterfall
+Monomon <---at---> Boss Essence-Gorb
+Herrah <---at---> Grub-Crystallized Mound
+Dreamer <---at---> Hallownest Seal-Soul Sanctum
+
+----------White Fragments:----------
+White Fragments:
+- Geo Rock-Crystal Peak Mimic Grub
+- Geo Rock-Broken Elevator 2
+- Geo Rock-Crystal Peak Conga Line
+- Geo Rock-Deepnest Below Mimics
+
+----------Stag Stations:----------
+Dirtmouth Stag <---at---> Geo Rock-Crossroads Goam Alcove
+Crossroads Stag <---at---> Wanderer's Journal-Pleasure House
+Greenpath Stag <---at---> Dirtmouth Stag
+Queen's Station Stag <---at---> Wanderer's Journal-Cliffs
+Queen's Gardens Stag <---at---> Soul Totem-Path of Pain Second
+City Storerooms Stag <---at---> Geo Rock-Love Key
+King's Station Stag <---at---> Boss Essence-No Eyes
+Resting Grounds Stag <---at---> Kingdom's Edge Map [112 Geo]
+Distant Village Stag <---at---> Wanderer's Journal-Greenpath Stag
+Hidden Station Stag <---at---> Whispering Root-Resting Grounds
+Stag Nest Stag <---at---> Grimmkin Flame-Greenpath
+
+----------Keys:----------
+Simple Keys:
+- Lifeblood Cocoon-Ancestral Mound
+- Soul Totem-Ancestral Mound
+- Hallownest Seal-Beast's Den
+- Geo Rock-Deepnest Galien Spike
+Shopkeeper's Key <---at---> Geo Rock-Kingdom's Edge Below Colosseum
+Elegant Key <---at---> Geo Rock-Crossroads Goam Journal Dupe
+Love Key <---at---> Soul Totem-Crossroads Shops
+Tram Pass <---at---> Grub-Queen's Gardens Marmu
+Lumafly Lantern <---at---> Boss Essence-Elder Hu
+King's Brand <---at---> Geo Rock-Resting Grounds Catacombs Left
+City Crest <---at---> Geo Rock-Waterways Flukemarm
+
+----------Important Charms:----------
+Grimmchild <---at---> Geo Rock-Greenpath Entrance
+Dashmaster <---at---> Geo Rock-King's Pass Below Fury
+Shaman Stone <---at---> Geo Rock-Crossroads Goam Journal
+Spell Twister <---at---> Lifeblood Cocoon-Greenpath
+Fragile Strength <---at---> Geo Rock-Lower Kingdom's Edge 3
+Quick Slash <---at---> Geo Rock-Fungal After Cornifer
+
+----------Baldur Killers:-----------
+Grubberfly's Elegy <---at---> Herrah [1 Dreamnail]
+Glowing Womb <---at---> Hallownest Seal-Fog Canyon West
+Weaversong <---at---> Lore Tablet-King's Pass Fury
+Spore Shroom <---at---> Grub-Collector 2
+Mark of Pride <---at---> Salubra [290 Geo]
+
+
+Generated condensed spoiler log in 0.0040723 seconds.

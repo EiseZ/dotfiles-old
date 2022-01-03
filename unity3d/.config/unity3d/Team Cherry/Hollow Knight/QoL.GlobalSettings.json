@@ -1,0 +1,52 @@
+{
+  "EnabledModules": {
+    "Dev": true,
+    "FasterLoads": true,
+    "FastMenus": true,
+    "FastText": true,
+    "FixFireballs": true,
+    "FixVolume": true,
+    "InfinitePoP": true,
+    "LemmSellAll": true,
+    "LockMenuCursor": false,
+    "OldDashmaster": false,
+    "SalubraKiller": true,
+    "SaneUumuu": true,
+    "SkipCutscenes": true,
+    "SpeedBroke": true,
+    "UnencryptedSaves": true
+  },
+  "Booleans": {
+    "Dev:LogUnityErrors": true,
+    "Dev:EnableStacktrace": true,
+    "SkipCutscenes:DreamersGet": true,
+    "SkipCutscenes:AbsoluteRadiance": true,
+    "SkipCutscenes:AbyssShriekGet": true,
+    "SkipCutscenes:AfterKingsBrandGet": true,
+    "SkipCutscenes:BlackEggOpen": true,
+    "SkipCutscenes:StagArrive": true,
+    "SkipCutscenes:HallOfGodsStatues": true,
+    "SkipCutscenes:GodhomeEntry": true,
+    "SkipCutscenes:PureVesselRoar": true,
+    "SkipCutscenes:FirstTimeBosses": true,
+    "SkipCutscenes:FirstCharm": true,
+    "SkipCutscenes:AutoSkipCinematics": true,
+    "SkipCutscenes:AllowSkippingNonskippable": true,
+    "SkipCutscenes:SkipCutscenesWithoutPrompt": true,
+    "SkipCutscenes:InstantSceneFadeIns": true,
+    "SpeedBroke:MenuDrop": true,
+    "SpeedBroke:Storage": true,
+    "SpeedBroke:Superslides": true,
+    "SpeedBroke:Televator": true,
+    "SpeedBroke:ExplosionPogo": true,
+    "SpeedBroke:GrubsThroughWalls": true,
+    "SpeedBroke:LeverSkips": true,
+    "SpeedBroke:NoHardFalls": false,
+    "SpeedBroke:ShadeSoulLeverSkip": false,
+    "SpeedBroke:CrystalisedMoundSpikes": true
+  },
+  "Floats": {
+    "FixVolume:DoubleDamageVolumeModifier": 0.8
+  },
+  "Integers": {}
+}

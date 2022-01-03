@@ -1,0 +1,108 @@
+Starting tracker log for new randomizer file.
+
+SETTINGS
+Seed: 499027562
+Randomizer version: 3.12(573)
+Mode: Item Randomizer
+Cursed: False
+Start location: King's Pass
+Random start items: False
+REQUIRED SKIPS
+Mild skips: False
+Shade skips: False
+Fireball skips: False
+Acid skips: False
+Spike tunnels: False
+Dark Rooms: False
+Spicy skips: False
+RANDOMIZED POOLS
+Dreamers: True
+Skills: True
+Charms: True
+Keys: True
+Geo chests: True
+Mask shards: True
+Vessel fragments: True
+Pale ore: True
+Charm notches: True
+Rancid eggs: True
+Relics: True
+Stags: True
+Maps: True
+Grubs: True
+Whispering roots: True
+Geo rocks: True
+Soul totems: True
+Palace totems: True
+Lore tablets: True
+Palace tablets: True
+Lifeblood cocoons: True
+Grimmkin flames: True
+Boss essence: True
+Boss geo: True
+Focus: False
+Split cloak: False
+Split claw: False
+Cursed nail: False
+Duplicate major items: True
+QUALITY OF LIFE
+Salubra: True
+Early geo: True
+Extra platforms: True
+NPC item dialogue: True
+Jiji: False
+ITEM --- {Dashmaster} at {Geo_Rock-King's_Pass_Below_Fury}
+ITEM --- {Hallownest_Seal-King's_Station} at {Lore_Tablet-King's_Pass_Focus}
+ITEM --- {Geo_Rock-Basin_Tunnel} at {Geo_Rock-King's_Pass_Hidden}
+ITEM --- {Grub-Fungal_Spore_Shroom} at {Lifeblood_Cocoon-King's_Pass}
+ITEM --- {Shade_Cloak(5?)} at {Geo_Rock-King's_Pass_Above_Fury}
+ITEM --- {Stalwart_Shell} at {Geo_Rock-King's_Pass_Collapse}
+ITEM --- {Whispering_Root-Waterways} at {Lore_Tablet-King's_Pass_Exit}
+ITEM --- {Geo_Rock-Deepnest_Garpede_2} at {Iselda}
+ITEM --- {Geo_Rock-Below_Gorb_Dupe} at {Iselda}
+ITEM --- {Geo_Rock-Crystal_Peak_Mimic_Grub} at {Iselda}
+ITEM --- {Grimmkin_Flame-City_Storerooms} at {Geo_Rock-Crossroads_Well}
+ITEM --- {Mask_Shard-Sly2} at {Grub-Crossroads_Guarded}
+ITEM --- {Geo_Rock-Crystal_Peak_Above_Spike_Grub} at {Geo_Rock-Crossroads_Above_Lever}
+ITEM --- {Dream_Gate} at {Grub-Crossroads_Center}
+ITEM --- {Rancid_Egg-City_of_Tears_Pleasure_House} at {Geo_Rock-Crossroads_Center_Grub}
+ITEM --- {Lifeblood_Cocoon-Galien} at {Crossroads_Map}
+ITEM --- {Hallownest_Seal-Soul_Sanctum} at {Geo_Rock-Crossroads_Aspid_Arena}
+ITEM --- {Deepnest_Map-Upper} at {Geo_Rock-Crossroads_Aspid_Arena_Dupe_2}
+ITEM --- {Soul_Totem-Before_Pilgrim's_Way} at {Geo_Rock-Crossroads_Aspid_Arena_Dupe_1}
+ITEM --- {Lore_Tablet-Palace_Workshop} at {Geo_Rock-Crossroads_Below_Goam_Mask_Shard}
+ITEM --- {Rancid_Egg-Crystal_Peak_Tall_Room} at {Geo_Rock-Crossroads_After_Goam_Mask_Shard}
+ITEM --- {Dirtmouth_Stag} at {Geo_Rock-Crossroads_Goam_Alcove}
+ITEM --- {Love_Key} at {Soul_Totem-Crossroads_Shops}
+ITEM --- {Lifeblood_Core} at {Boss_Geo-Gruz_Mother}
+ITEM --- {Mark_of_Pride} at {Salubra}
+ITEM --- {Geo_Rock-Crossroads_Below_Goam_Mask_Shard} at {Salubra}
+ITEM --- {Geo_Rock-Crossroads_Aspid_Arena_Dupe_2} at {Salubra}
+ITEM --- {Geo_Rock-Deepnest_Nosk_1} at {Salubra}
+ITEM --- {Geo_Rock-Crystal_Peak_Above_Crushers_Higher} at {Salubra}
+ITEM --- {Geo_Rock-Waterways_Tuk} at {Salubra}
+ITEM --- {Grub-Resting_Grounds} at {Grub-Crossroads_Spike}
+ITEM --- {Whispering_Root-Crossroads} at {Geo_Rock-Crossroads_Above_Tram}
+ITEM --- {Grub-Waterways_Requires_Tram} at {Crossroads_Stag}
+ITEM --- {Soul_Totem-Resting_Grounds} at {City_Crest}
+ITEM --- {Grimmkin_Flame-Greenpath} at {200_Geo-False_Knight_Chest}
+ITEM --- {Soul_Totem-Oro_Dive_2} at {Vengeful_Spirit}
+ITEM --- {Simple_Key-Basin} at {Soul_Totem-Ancestral_Mound}
+ITEM --- {Geo_Rock-Beast's_Den_Bottom} at {Geo_Rock-Ancestral_Mound}
+ITEM --- {Geo_Rock-Mantis_Outskirts_Guarded_Dupe} at {Geo_Rock-Ancestral_Mound_Dupe}
+ITEM --- {Simple_Key-Lurker} at {Lifeblood_Cocoon-Ancestral_Mound}
+ITEM --- {Soul_Totem-Fungal_Core} at {Geo_Rock-Crossroads_Before_Acid_Grub}
+ITEM --- {Geo_Rock-Greenpath_Acid_Bridge} at {Grub-Crossroads_Acid}
+ITEM --- {Grub-Crystal_Peak_Spike} at {Geo_Rock-Crossroads_Before_Fungal}
+ITEM --- {Dreamshield} at {Geo_Rock-Crossroads_Before_Fungal_Dupe_1}
+ITEM --- {Hallownest_Seal-Crossroads_Well} at {Geo_Rock-Crossroads_Before_Fungal_Dupe_2}
+ITEM --- {160_Geo-Weavers_Den_Chest} at {Leg_Eater}
+ITEM --- {Geo_Rock-King's_Pass_Below_Fury} at {Leg_Eater}
+ITEM --- {Geo_Rock-Overgrown_Mound} at {Leg_Eater}
+ITEM --- {Pale_Ore-Seer} at {Leg_Eater}
+ITEM --- {Royal_Waterways_Map} at {Leg_Eater}
+ITEM --- {Geo_Rock-Greenpath_Skip_Squit} at {Charm_Notch-Shrumal_Ogres}
+ITEM --- {Mask_Shard-Sly1} at {Geo_Rock-Fungal_Below_Shrumal_Ogres}
+ITEM --- {Geo_Rock-Greenpath_Below_Hornet} at {Fungal_Wastes_Map}
+ITEM --- {Quick_Slash} at {Geo_Rock-Fungal_After_Cornifer}
+ITEM --- {Pale_Ore-Crystal_Peak} at {Queen's_Station_Stag}

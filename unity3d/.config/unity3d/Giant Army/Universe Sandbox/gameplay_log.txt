@@ -1,0 +1,7 @@
+01/01/2022 19:23:50
+
+Time: 28.80 | Message: PlayPauseKeypress | Data:  | Context: KeyPress
+(x 3)
+Time: 32.44 | Name: Exit | Parent: HomePanel | Class: Button
+Time: 36.03 | Name: IncludeLog | Parent: Survey | Class: Button
+Time: 36.88 | Name: Exit | Parent: Survey | Class: Button

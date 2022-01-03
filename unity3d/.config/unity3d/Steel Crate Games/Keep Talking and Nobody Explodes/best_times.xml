@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <item>
+    <key>
+      <string>firsttime</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>11</RecordID>
+        <Result>Defused</Result>
+        <Seed>348722818</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+        </Components>
+        <MissionID>firsttime</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>228.59903</TimeElapsed>
+        <LeaderboardRank>1031614</LeaderboardRank>
+        <RealTimeElapsed>234.240967</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Keypad</ComponentType>
+            <InteractionType>PushButton</InteractionType>
+            <Time>216.782776</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>somethingoldsomethingnew</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>3</RecordID>
+        <Result>Defused</Result>
+        <Seed>1819574310</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Memory</ComponentTypeEnum>
+        </Components>
+        <MissionID>somethingoldsomethingnew</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>269.183472</TimeElapsed>
+        <LeaderboardRank>1012826</LeaderboardRank>
+        <RealTimeElapsed>262.3081</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Memory</ComponentType>
+            <InteractionType>PushButton</InteractionType>
+            <Time>194.785828</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>doubleyourmoney</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>4</RecordID>
+        <Result>Defused</Result>
+        <Seed>345604057</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+        </Components>
+        <MissionID>doubleyourmoney</MissionID>
+        <ModuleSolveCount>6</ModuleSolveCount>
+        <TimeElapsed>234.41539</TimeElapsed>
+        <LeaderboardRank>813991</LeaderboardRank>
+        <RealTimeElapsed>242.423767</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>onestepup</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>5</RecordID>
+        <Result>Defused</Result>
+        <Seed>1817694212</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>WhosOnFirst</ComponentTypeEnum>
+          <ComponentTypeEnum>Simon</ComponentTypeEnum>
+        </Components>
+        <MissionID>onestepup</MissionID>
+        <ModuleSolveCount>4</ModuleSolveCount>
+        <TimeElapsed>220.303</TimeElapsed>
+        <LeaderboardRank>517479</LeaderboardRank>
+        <RealTimeElapsed>228.3086</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>pickupthepace</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>9</RecordID>
+        <Result>Defused</Result>
+        <Seed>408004771</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Maze</ComponentTypeEnum>
+          <ComponentTypeEnum>Simon</ComponentTypeEnum>
+        </Components>
+        <MissionID>pickupthepace</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>163.997284</TimeElapsed>
+        <LeaderboardRank>672319</LeaderboardRank>
+        <RealTimeElapsed>172.000244</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>ahiddenmessage</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>15</RecordID>
+        <Result>Defused</Result>
+        <Seed>316363637</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>WhosOnFirst</ComponentTypeEnum>
+          <ComponentTypeEnum>Morse</ComponentTypeEnum>
+        </Components>
+        <MissionID>ahiddenmessage</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>213.503738</TimeElapsed>
+        <LeaderboardRank>406219</LeaderboardRank>
+        <RealTimeElapsed>219.870972</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Morse</ComponentType>
+            <InteractionType>PushButton</InteractionType>
+            <Time>205.310745</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>somethingsdifferent</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>18</RecordID>
+        <Result>Defused</Result>
+        <Seed>690422145</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Venn</ComponentTypeEnum>
+          <ComponentTypeEnum>Simon</ComponentTypeEnum>
+        </Components>
+        <MissionID>somethingsdifferent</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>156.226227</TimeElapsed>
+        <LeaderboardRank>120204</LeaderboardRank>
+        <RealTimeElapsed>164.2273</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>giantleap</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>22</RecordID>
+        <Result>Defused</Result>
+        <Seed>609484070</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Maze</ComponentTypeEnum>
+          <ComponentTypeEnum>WireSequence</ComponentTypeEnum>
+          <ComponentTypeEnum>Password</ComponentTypeEnum>
+        </Components>
+        <MissionID>giantleap</MissionID>
+        <ModuleSolveCount>4</ModuleSolveCount>
+        <TimeElapsed>263.1175</TimeElapsed>
+        <LeaderboardRank>330092</LeaderboardRank>
+        <RealTimeElapsed>251.165283</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>WireSequence</ComponentType>
+            <InteractionType>CutWire</InteractionType>
+            <Time>163.332474</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>fairgame</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>24</RecordID>
+        <Result>Defused</Result>
+        <Seed>799083699</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>Maze</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>WireSequence</ComponentTypeEnum>
+          <ComponentTypeEnum>Password</ComponentTypeEnum>
+          <ComponentTypeEnum>Memory</ComponentTypeEnum>
+        </Components>
+        <MissionID>fairgame</MissionID>
+        <ModuleSolveCount>5</ModuleSolveCount>
+        <TimeElapsed>229.910339</TimeElapsed>
+        <LeaderboardRank>98709</LeaderboardRank>
+        <RealTimeElapsed>237.916382</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>pickupthepacetwo</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>28</RecordID>
+        <Result>Defused</Result>
+        <Seed>766612755</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>Maze</ComponentTypeEnum>
+        </Components>
+        <MissionID>pickupthepacetwo</MissionID>
+        <ModuleSolveCount>5</ModuleSolveCount>
+        <TimeElapsed>104.641953</TimeElapsed>
+        <LeaderboardRank>47021</LeaderboardRank>
+        <RealTimeElapsed>112.646729</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>noroomforerror</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>35</RecordID>
+        <Result>Defused</Result>
+        <Seed>1256735015</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>Memory</ComponentTypeEnum>
+          <ComponentTypeEnum>WhosOnFirst</ComponentTypeEnum>
+        </Components>
+        <MissionID>noroomforerror</MissionID>
+        <ModuleSolveCount>5</ModuleSolveCount>
+        <TimeElapsed>200.5838</TimeElapsed>
+        <LeaderboardRank>274486</LeaderboardRank>
+        <RealTimeElapsed>208.588379</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>eightminutes</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>44</RecordID>
+        <Result>Defused</Result>
+        <Seed>456373928</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>WhosOnFirst</ComponentTypeEnum>
+          <ComponentTypeEnum>Venn</ComponentTypeEnum>
+          <ComponentTypeEnum>Memory</ComponentTypeEnum>
+          <ComponentTypeEnum>WireSequence</ComponentTypeEnum>
+          <ComponentTypeEnum>Password</ComponentTypeEnum>
+        </Components>
+        <MissionID>eightminutes</MissionID>
+        <ModuleSolveCount>8</ModuleSolveCount>
+        <TimeElapsed>312.6819</TimeElapsed>
+        <LeaderboardRank>50831</LeaderboardRank>
+        <RealTimeElapsed>315.8944</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Venn</ComponentType>
+            <InteractionType>CutWire</InteractionType>
+            <Time>288.701477</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>asmallwrinkle</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>46</RecordID>
+        <Result>Defused</Result>
+        <Seed>199819866</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>NeedyCapacitor</ComponentTypeEnum>
+          <ComponentTypeEnum>WhosOnFirst</ComponentTypeEnum>
+        </Components>
+        <MissionID>asmallwrinkle</MissionID>
+        <ModuleSolveCount>5</ModuleSolveCount>
+        <TimeElapsed>158.206055</TimeElapsed>
+        <LeaderboardRank>108522</LeaderboardRank>
+        <RealTimeElapsed>166.208984</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>payattention</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>47</RecordID>
+        <Result>Defused</Result>
+        <Seed>1791880553</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Memory</ComponentTypeEnum>
+          <ComponentTypeEnum>Password</ComponentTypeEnum>
+          <ComponentTypeEnum>NeedyVentGas</ComponentTypeEnum>
+        </Components>
+        <MissionID>payattention</MissionID>
+        <ModuleSolveCount>4</ModuleSolveCount>
+        <TimeElapsed>180.5277</TimeElapsed>
+        <LeaderboardRank>159772</LeaderboardRank>
+        <RealTimeElapsed>188.52832</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+</dictionary>

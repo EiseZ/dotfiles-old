@@ -1,0 +1,11 @@
+colors:
+  primary:
+    background: '#000000'
+  normal:
+    black: '#000000'
+    green: '#a3be8c'
+    white: '#e5e9f0'
+
+font:
+  normal:
+    family: Source Code Pro

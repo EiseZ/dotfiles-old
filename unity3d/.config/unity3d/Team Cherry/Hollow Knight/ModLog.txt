@@ -1,0 +1,63 @@
+﻿[INFO]:[API] - Main menu loading
+[INFO]:[API] - Starting mod loading
+[INFO]:[API] - Loading Global Settings
+[INFO]:[CustomKnight] - Initializing
+[INFO]:[CustomKnight] - Loading Global Settings
+[INFO]:[QoL] - Initializing
+[INFO]:[QoL] - Loading Global Settings
+[INFO]:[Satchel] - Initializing
+[INFO]:[WeaverCore] - Initializing
+[INFO]:[API] - Preloaded reflection in 1188ms
+[INFO]:Loading Registry = WeaverCore Registry for mod = Weaver Core
+[INFO]:[API] - Creating mod preloads
+[INFO]:[API] - Main menu loading
+[INFO]:[GUI Controller] Building Help Text
+[INFO]:[CustomKnight] - Applying Settings
+[INFO]:[CustomKnight] - trying to apply skin King_Crimson by LichOne#5951
+[ERROR]:[UNITY] - NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[UNITY] - CustomKnight.SkinManager+<ChangeSkinRoutine>d__15.MoveNext () (at <580895dd70b54346ade3ec281bd86e94>:0)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[ERROR]:[UNITY] - CustomKnight.SkinManager:ChangeSkin(String)
+[ERROR]:[UNITY] - CustomKnight.ModMenu:apply()
+[ERROR]:[UNITY] - CustomKnight.ModMenu:apply(Object)
+[ERROR]:[UNITY] - UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+[ERROR]:[UNITY] - InControl.HollowKnightInputModule:Process()
+[ERROR]:[UNITY] - UnityEngine.EventSystems.EventSystem:Update()
+[ERROR]:[UNITY] - 
+[INFO]:[CustomKnight] - Reapplying Skin
+[INFO]:[CustomKnight] - trying to apply skin King_Crimson by LichOne#5951
+[INFO]:[CustomKnight] - [SwapManager] There are no folders in the Swap directory. Nothing to Swap.
+[INFO]:[CustomKnight] - Applying Settings
+[INFO]:[CustomKnight] - trying to apply skin King_Crimson by LichOne#5951
+[INFO]:[CustomKnight] - Applying Settings
+[INFO]:[CustomKnight] - trying to apply skin King_Crimson by LichOne#5951
+[INFO]:[CustomKnight] - [SwapManager] There are no folders in the Swap directory. Nothing to Swap.
+[INFO]:[API] - Main menu loading
+[ERROR]:[UNITY] - NullReferenceException
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour.StartCoroutine (System.Collections.IEnumerator routine) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - (wrapper dynamic-method) UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68.DMD<UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68::MoveNext>(UnityEngine.UI.SaveSlotButton/<AnimateToSlotState>d__68)
+[ERROR]:[UNITY] - CoroutineQueue+<Run>d__5.MoveNext () (at <c2a48dab016a4177be1ebaa8c1a99f48>:0)
+[ERROR]:[UNITY] - UnityEngine.Debug:LogException(Exception)
+[ERROR]:[UNITY] - <Run>d__5:MoveNext()
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+[ERROR]:[UNITY] - 
+[ERROR]:[UNITY] - NullReferenceException
+[ERROR]:[UNITY] - QoL.Modules.FastMenus+<FadeOutCanvasGroup>d__10.MoveNext () (at C:/Users/home/Projects/HollowKnight/HollowKnight.Released/QoL/QoL/Modules/FastMenus.cs:144)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[ERROR]:[UNITY] - <HideSaveProfileMenu>d__216:DMD<UIManager+<HideSaveProfileMenu>d__216::MoveNext>(<HideSaveProfileMenu>d__216)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+[ERROR]:[UNITY] - 
+[ERROR]:[UNITY] - NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[UNITY] - QoL.Modules.FastMenus+<FadeOutCanvasGroup>d__10.MoveNext () (at C:/Users/home/Projects/HollowKnight/HollowKnight.Released/QoL/QoL/Modules/FastMenus.cs:144)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[ERROR]:[UNITY] - <HideSaveProfileMenu>d__216:DMD<UIManager+<HideSaveProfileMenu>d__216::MoveNext>(<HideSaveProfileMenu>d__216)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+[ERROR]:[UNITY] - 
+[INFO]:[CustomKnight] - [SwapManager] There are no folders in the Swap directory. Nothing to Swap.
+[INFO]:[API] - Main menu loading
+[INFO]:[API] - Saving Global Settings
+[INFO]:[CustomKnight] - Saving Global Settings
+[INFO]:[QoL] - Saving Global Settings

@@ -1,0 +1,24 @@
+{
+  "BoolValues": {
+    "Preloads": true
+  },
+  "FloatValues": {
+    "PanelY": 80.0
+  },
+  "IntValues": {
+    "PanelWidth": 250,
+    "PanelHeight": 1080,
+    "NameLength": 10,
+    "OptionSize": 35
+  },
+  "StringValues": {
+    "DefaultSkin": "Default"
+  },
+  "Preloads": true,
+  "DefaultSkin": "Default",
+  "PanelY": 80.0,
+  "PanelWidth": 250,
+  "PanelHeight": 1080,
+  "NameLength": 10,
+  "OptionSize": 35
+}

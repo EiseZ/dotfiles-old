@@ -1,0 +1,170 @@
+Generating helper log:
+Current scene: Quit_To_Menu
+
+
+REACHABLE ITEM LOCATIONS
+There are 85 unchecked reachable locations.
+
+Greenpath
+ - Mothwing Cloak
+ - Thorns of Agony
+ - 85 Geo-Greenpath Chest
+ - Wanderer's Journal-Greenpath Stag
+ - Hallownest Seal-Greenpath
+ - Greenpath Map
+ - Greenpath Stag
+ - Grub-Greenpath Cornifer
+ - Grub-Greenpath Journal
+ - Grub-Greenpath MMC
+ - Grub-Greenpath Stag
+ - Geo Rock-Greenpath Entrance
+ - Geo Rock-Greenpath Waterfall
+ - Geo Rock-Greenpath Below Skip Squit
+ - Geo Rock-Greenpath Skip Squit
+ - Geo Rock-Greenpath Second Skip Fool Eater
+ - Geo Rock-Greenpath Second Skip Fool Eater Dupe
+ - Geo Rock-Greenpath Second Skip Lower
+ - Geo Rock-Greenpath Below Hornet
+ - Geo Rock-Greenpath Above Thorns
+ - Geo Rock-Greenpath Hunter's Journal
+ - Geo Rock-Greenpath Acid Bridge
+ - Geo Rock-Greenpath After MMC Hidden
+ - Geo Rock-Greenpath After MMC
+ - Geo Rock-Greenpath After MMC Dupe
+ - Geo Rock-Greenpath Obbles Fool Eater
+ - Geo Rock-Greenpath Moss Knights
+ - Geo Rock-Greenpath Moss Knights Dupe 1
+ - Geo Rock-Greenpath Moss Knights Dupe 2
+ - Geo Rock-Greenpath Below Stag
+ - Geo Rock-Greenpath Below Stag Fool Eater
+ - Geo Rock-Greenpath MMC
+ - Geo Rock-Greenpath Below Toll
+ - Geo Rock-Greenpath Toll Hidden
+ - Geo Rock-Greenpath Toll Hidden Dupe
+ - Soul Totem-Greenpath Hunter's Journal
+ - Soul Totem-Greenpath MMC
+ - Soul Totem-Greenpath Below Toll
+ - Lore Tablet-Greenpath Upper Hidden
+ - Lore Tablet-Greenpath Below Toll
+ - Lore Tablet-Greenpath Lifeblood
+ - Lore Tablet-Greenpath Stag
+ - Lore Tablet-Greenpath Lower Hidden
+ - Lifeblood Cocoon-Greenpath
+ - Boss Geo-Massive Moss Charger
+ - Boss Geo-Vengefly King
+
+Mantis Village
+ - Mantis Claw
+ - Dashmaster
+ - Geo Rock-Mantis Outskirts Guarded
+ - Geo Rock-Mantis Outskirts Guarded Dupe
+ - Geo Rock-Mantis Outskirts Alcove
+ - Lore Tablet-Mantis Outskirts
+
+Shops
+ - Grubfather
+ - Sly
+
+Kings Pass
+ - Fury of the Fallen
+ - Geo Rock-King's Pass Left
+ - Lore Tablet-King's Pass Fury
+
+Fog Canyon
+ - Hallownest Seal-Fog Canyon West
+ - Lifeblood Cocoon-Fog Canyon West
+
+Fungal Wastes
+ - Hallownest Seal-Fungal Wastes Sporgs
+ - Grub-Fungal Bouncy
+ - Geo Rock-Fungal Above Cloth
+ - Geo Rock-Fungal After Cloth
+ - Geo Rock-Fungal Below Pilgrim's Way
+ - Geo Rock-Fungal Below Pilgrim's Way Dupe
+ - Geo Rock-Fungal After Bouncy Grub
+ - Geo Rock-Fungal After Bouncy Grub Dupe
+ - Geo Rock-Fungal Bouncy Grub Lever
+ - Soul Totem-Before Pilgrim's Way
+ - Lore Tablet-Pilgrim's Way 2
+
+Dirtmouth
+ - Dirtmouth Stag
+
+Forgotten Crossroads
+ - Grub-Crossroads Stag
+ - Geo Rock-Crossroads Aspid Arena Hidden
+ - Geo Rock-Crossroads Before Shops
+ - Geo Rock-Crossroads Before Glowing Womb
+ - Geo Rock-Crossroads Above Mawlek
+ - Geo Rock-Crossroads Goam Damage Boost
+ - Geo Rock-Crossroads Tram
+ - Soul Totem-Crossroads Goam Journal
+ - Soul Totem-Crossroads Mawlek Upper
+ - Soul Totem-Crossroads Mawlek Lower
+ - Soul Totem-Crossroads Myla
+ - Lore Tablet-Pilgrim's Way 1
+
+Howling Cliffs
+ - Geo Rock-Baldur Shell Top Left
+ - Geo Rock-Baldur Shell Alcove
+
+
+CHECKED ITEM LOCATIONS
+
+Kings Pass
+ - Geo Rock-King's Pass Below Fury
+ - Lore Tablet-King's Pass Focus
+ - Geo Rock-King's Pass Hidden
+ - Lifeblood Cocoon-King's Pass
+ - Geo Rock-King's Pass Above Fury
+ - Geo Rock-King's Pass Collapse
+ - Lore Tablet-King's Pass Exit
+
+Shops
+ - Iselda
+ - Salubra
+ - Leg Eater
+
+Forgotten Crossroads
+ - Geo Rock-Crossroads Well
+ - Grub-Crossroads Guarded
+ - Geo Rock-Crossroads Above Lever
+ - Grub-Crossroads Center
+ - Geo Rock-Crossroads Center Grub
+ - Crossroads Map
+ - Geo Rock-Crossroads Aspid Arena
+ - Geo Rock-Crossroads Aspid Arena Dupe 2
+ - Geo Rock-Crossroads Aspid Arena Dupe 1
+ - Geo Rock-Crossroads Below Goam Mask Shard
+ - Geo Rock-Crossroads After Goam Mask Shard
+ - Geo Rock-Crossroads Goam Alcove
+ - Soul Totem-Crossroads Shops
+ - Boss Geo-Gruz Mother
+ - Grub-Crossroads Spike
+ - Geo Rock-Crossroads Above Tram
+ - Crossroads Stag
+ - City Crest
+ - 200 Geo-False Knight Chest
+ - Geo Rock-Crossroads Before Acid Grub
+ - Grub-Crossroads Acid
+ - Geo Rock-Crossroads Before Fungal
+ - Geo Rock-Crossroads Before Fungal Dupe 1
+ - Geo Rock-Crossroads Before Fungal Dupe 2
+
+Ancestral Mound
+ - Vengeful Spirit
+ - Soul Totem-Ancestral Mound
+ - Geo Rock-Ancestral Mound
+ - Geo Rock-Ancestral Mound Dupe
+ - Lifeblood Cocoon-Ancestral Mound
+
+Fungal Wastes
+ - Charm Notch-Shrumal Ogres
+ - Geo Rock-Fungal Below Shrumal Ogres
+ - Fungal Wastes Map
+ - Geo Rock-Fungal After Cornifer
+
+Queens Station
+ - Queen's Station Stag
+
+Generated helper log in 0.151379 seconds.

@@ -1,0 +1,15 @@
+{
+  "ModEnabledSettings": {},
+  "LoggingLevel": 2,
+  "ConsoleSettings": {
+    "UseLogColors": false,
+    "FineColor": "grey",
+    "InfoColor": "white",
+    "DebugColor": "white",
+    "WarningColor": "yellow",
+    "ErrorColor": "red",
+    "DefaultColor": "white"
+  },
+  "ShowDebugLogInGame": false,
+  "PreloadBatchSize": 5
+}

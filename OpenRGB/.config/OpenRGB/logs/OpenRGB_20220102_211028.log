@@ -1,0 +1,151 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220102_211028
+====================================================================================================
+
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |             Detecting I2C interfaces               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+1001  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Detecting I2C devices                |
+1001  |Info:    ------------------------------------------------------
+1084  |Info:    Loading plugins
+1196  |Info:    ------------------------------------------------------
+1196  |Info:    |               Detecting HID devices                |
+1196  |Info:    ------------------------------------------------------
+1197  |Info:    [Corsair Hydro H150i Pro XT] is not initialized
+1197  |Info:    [MSI Mystic Light MS_7C91] is not initialized
+1197  |Info:    ------------------------------------------------------
+1197  |Info:    |              Detecting other devices               |
+1197  |Info:    ------------------------------------------------------
+1198  |Info:    ------------------------------------------------------
+1198  |Info:    |                Detection completed                 |
+1198  |Info:    ------------------------------------------------------
+1198  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+51066 |Info:    ------------------------------------------------------
+51066 |Info:    |               Start device detection               |
+51066 |Info:    ------------------------------------------------------
+51066 |Info:    Initializing HID interfaces: Success
+51067 |Info:    ------------------------------------------------------
+51067 |Info:    |             Detecting I2C interfaces               |
+51067 |Info:    ------------------------------------------------------
+51067 |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+51067 |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+51067 |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+51067 |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+51067 |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+51067 |Info:    ------------------------------------------------------
+51067 |Info:    |               Detecting I2C devices                |
+51067 |Info:    ------------------------------------------------------
+51262 |Info:    ------------------------------------------------------
+51262 |Info:    |               Detecting HID devices                |
+51262 |Info:    ------------------------------------------------------
+51262 |Info:    [Corsair Hydro H150i Pro XT] is not initialized
+51262 |Info:    [MSI Mystic Light MS_7C91] is not initialized
+51262 |Info:    ------------------------------------------------------
+51262 |Info:    |              Detecting other devices               |
+51262 |Info:    ------------------------------------------------------
+51262 |Info:    ------------------------------------------------------
+51262 |Info:    |                Detection completed                 |
+51262 |Info:    ------------------------------------------------------
+51262 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+54145 |Info:    ------------------------------------------------------
+54145 |Info:    |               Start device detection               |
+54145 |Info:    ------------------------------------------------------
+54145 |Info:    Initializing HID interfaces: Success
+54146 |Info:    ------------------------------------------------------
+54146 |Info:    |             Detecting I2C interfaces               |
+54146 |Info:    ------------------------------------------------------
+54146 |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+54146 |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+54146 |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+54146 |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+54146 |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+54146 |Info:    ------------------------------------------------------
+54146 |Info:    |               Detecting I2C devices                |
+54146 |Info:    ------------------------------------------------------
+54340 |Info:    ------------------------------------------------------
+54340 |Info:    |               Detecting HID devices                |
+54340 |Info:    ------------------------------------------------------
+54340 |Info:    [Corsair Hydro H150i Pro XT] is not initialized
+54340 |Info:    [MSI Mystic Light MS_7C91] is not initialized
+54340 |Info:    ------------------------------------------------------
+54340 |Info:    |              Detecting other devices               |
+54340 |Info:    ------------------------------------------------------
+54341 |Info:    ------------------------------------------------------
+54341 |Info:    |                Detection completed                 |
+54341 |Info:    ------------------------------------------------------
+54341 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+191635|Info:    ------------------------------------------------------
+191635|Info:    |               Start device detection               |
+191635|Info:    ------------------------------------------------------
+191636|Info:    Initializing HID interfaces: Success
+191636|Info:    ------------------------------------------------------
+191636|Info:    |             Detecting I2C interfaces               |
+191636|Info:    ------------------------------------------------------
+191636|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+191636|Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1022:790B
+191636|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+191637|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2503 Subsystem: 19DA:4630
+191637|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+191637|Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1022:790B
+191637|Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+191637|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2503 Subsystem: 19DA:4630
+191637|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+191637|Info:    ------------------------------------------------------
+191637|Info:    |               Detecting I2C devices                |
+191637|Info:    ------------------------------------------------------
+192128|Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+192145|Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+192372|Info:    ------------------------------------------------------
+192372|Info:    |               Detecting HID devices                |
+192372|Info:    ------------------------------------------------------
+192372|Info:    [Corsair Hydro H150i Pro XT] is not initialized
+192372|Info:    [MSI Mystic Light MS_7C91] is not initialized
+192372|Info:    ------------------------------------------------------
+192372|Info:    |              Detecting other devices               |
+192372|Info:    ------------------------------------------------------
+192372|Info:    ------------------------------------------------------
+192372|Info:    |                Detection completed                 |
+192372|Info:    ------------------------------------------------------
+386359|Info:    ------------------------------------------------------
+386359|Info:    |               Start device detection               |
+386359|Info:    ------------------------------------------------------
+386359|Info:    Initializing HID interfaces: Success
+386360|Info:    ------------------------------------------------------
+386360|Info:    |             Detecting I2C interfaces               |
+386360|Info:    ------------------------------------------------------
+386360|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1022:790B
+386360|Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1022:790B
+386360|Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+386360|Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+386360|Info:    ------------------------------------------------------
+386360|Info:    |               Detecting I2C devices                |
+386360|Info:    ------------------------------------------------------
+386852|Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+386864|Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+387092|Info:    ------------------------------------------------------
+387092|Info:    |               Detecting HID devices                |
+387092|Info:    ------------------------------------------------------
+387092|Info:    [Corsair Hydro H150i Pro XT] is not initialized
+387092|Info:    [MSI Mystic Light MS_7C91] is not initialized
+387092|Info:    ------------------------------------------------------
+387092|Info:    |              Detecting other devices               |
+387092|Info:    ------------------------------------------------------
+387092|Info:    ------------------------------------------------------
+387092|Info:    |                Detection completed                 |
+387092|Info:    ------------------------------------------------------

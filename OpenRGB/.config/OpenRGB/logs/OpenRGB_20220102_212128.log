@@ -1,0 +1,38 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220102_212128
+====================================================================================================
+
+1000  |Info:    ------------------------------------------------------
+1000  |Info:    |               Start device detection               |
+1000  |Info:    ------------------------------------------------------
+1000  |Info:    Initializing HID interfaces: Success
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |             Detecting I2C interfaces               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1022:790B
+1001  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1022:790B
+1001  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:790B
+1001  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2503 Subsystem: 19DA:4630
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Detecting I2C devices                |
+1001  |Info:    ------------------------------------------------------
+1027  |Info:    Loading plugins
+1491  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1503  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1726  |Info:    ------------------------------------------------------
+1726  |Info:    |               Detecting HID devices                |
+1726  |Info:    ------------------------------------------------------
+1727  |Info:    [Corsair Hydro H150i Pro XT] is not initialized
+1727  |Info:    [MSI Mystic Light MS_7C91] is not initialized
+1727  |Info:    ------------------------------------------------------
+1727  |Info:    |              Detecting other devices               |
+1727  |Info:    ------------------------------------------------------
+1729  |Info:    ------------------------------------------------------
+1729  |Info:    |                Detection completed                 |
+1729  |Info:    ------------------------------------------------------

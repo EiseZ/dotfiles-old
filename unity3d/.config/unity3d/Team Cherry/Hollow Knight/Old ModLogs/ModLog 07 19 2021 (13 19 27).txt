@@ -1,0 +1,273 @@
+﻿[INFO]:[ModManager] - Initializing
+[INFO]:[ModManager] - Initialized
+[INFO]:[API] - Loading ModdingApi Global Settings.
+[INFO]:[API] - Main menu loading
+[INFO]:[API] - Preloaded reflection in 118ms
+[INFO]:[API] - Trying to load mods
+[INFO]:[API] - Attempting to determine type of mod assemblies (library/mod/addon)
+[INFO]:[API] - Benchwarp - MOD
+[INFO]:[API] - CustomKnight - MOD
+[INFO]:[API] - DebugMod - MOD
+[INFO]:[API] - ModCommon - MOD
+[INFO]:[API] - QoL - MOD
+[INFO]:[API] - RandomizerMod3.0 - MOD
+[INFO]:[API] - SereCore - LIBRARY
+[INFO]:[API] - Vasi - LIBRARY
+[INFO]:[SereCore] - Initializing
+[INFO]:[Benchwarp] - Initializing
+[INFO]:[Benchwarp] - Loading Global Settings
+[INFO]:[CustomKnight] - Initializing
+[INFO]:[CustomKnight] - Loading Global Settings
+[INFO]:[DebugMod] - Initializing
+[INFO]:[DebugMod] - Instantiating Mod
+[INFO]:[DebugMod] - Loading Global Settings
+[INFO]:[ModCommon] - Initializing
+[INFO]:[ModCommon] - Instantiating Mod
+[INFO]:[ModCommon] - Loading Global Settings
+[INFO]:[QoL] - Initializing
+[INFO]:[QoL] - Loading Global Settings
+[INFO]:[RandomizerMod] - Initializing
+[INFO]:[RandomizerMod] - Loading Global Settings
+[INFO]:[API] - Preloading
+[INFO]:[API] - Checking preloads for mod "ModCommon"
+[INFO]:[API] - Checking preloads for mod "SereCore"
+[INFO]:[API] - Checking preloads for mod "CustomKnight"
+[INFO]:[API] - Found object "Abyss_10.higher_being/Dish Plat/Knight Dummy"
+[INFO]:[API] - Found object "Abyss_12.Scream 2 Get/Cutscene Knight"
+[INFO]:[API] - Found object "Abyss_21.Shiny Item DJ/Knight Cutscene"
+[INFO]:[API] - Found object "Crossroads_50.Quirrel Lakeside/Sit Region/Knight Sit"
+[INFO]:[API] - Found object "Deepnest_East_12.Hornet Blizzard Return Scene"
+[INFO]:[API] - Found object "Deepnest_Spider_Town.RestBench Spider/Webbed Knight"
+[INFO]:[API] - Found object "Dream_Abyss.End Cutscene/Dummy"
+[INFO]:[API] - Found object "GG_Door_5_Finale.abyss_door_5_cutscene_sequence/main_chars"
+[INFO]:[API] - Found object "GG_Vengefly.Boss Scene Controller/Dream Entry/Knight Dream Arrival"
+[INFO]:[API] - Found object "RestingGrounds_07.Dream Moth/Knight Dummy"
+[INFO]:[API] - Checking preloads for mod "DebugMod"
+[INFO]:[API] - Found object "Tutorial_01._Enemies/Buzzer"
+[INFO]:[API] - Checking preloads for mod "RandomizerMod"
+[INFO]:[API] - Found object "Tutorial_01._Props/Chest/Item/Shiny Item (1)"
+[INFO]:[API] - Found object "Tutorial_01._Enemies/Crawler 1"
+[INFO]:[API] - Found object "Tutorial_01._Props/Cave Spikes (1)"
+[INFO]:[API] - Found object "Tutorial_01._Markers/Death Respawn Marker"
+[INFO]:[API] - Found object "Tutorial_01._Scenery/plat_float_17"
+[INFO]:[API] - Found object "Tutorial_01._Props/Tut_tablet_top"
+[INFO]:[API] - Found object "Tutorial_01._Props/Geo Rock 1"
+[INFO]:[API] - Found object "Cliffs_02.Soul Totem 5"
+[INFO]:[API] - Found object "Room_Jinn.Jinn NPC"
+[INFO]:[API] - Found object "Abyss_19.Grub Bottle/Grub"
+[INFO]:[API] - Found object "Abyss_19.Grub Bottle"
+[INFO]:[API] - Checking preloads for mod "Benchwarp"
+[INFO]:[API] - Found object "Crossroads_30.RestBench"
+[INFO]:[API] - Checking preloads for mod "QoL"
+[INFO]:[API] - Loading scene "Abyss_10"
+[INFO]:[API] - Loading scene "Abyss_12"
+[INFO]:[API] - Loading scene "Abyss_21"
+[INFO]:[API] - Loading scene "Crossroads_50"
+[INFO]:[API] - Loading scene "Deepnest_East_12"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "higher_being/Dish Plat/Knight Dummy"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Scream 2 Get/Cutscene Knight"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Shiny Item DJ/Knight Cutscene"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Quirrel Lakeside/Sit Region/Knight Sit"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Hornet Blizzard Return Scene"
+[INFO]:[API] - Loading scene "Deepnest_Spider_Town"
+[INFO]:[API] - Loading scene "Dream_Abyss"
+[INFO]:[API] - Loading scene "GG_Door_5_Finale"
+[INFO]:[API] - Loading scene "GG_Vengefly"
+[INFO]:[API] - Loading scene "RestingGrounds_07"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "RestBench Spider/Webbed Knight"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "End Cutscene/Dummy"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "abyss_door_5_cutscene_sequence/main_chars"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Boss Scene Controller/Dream Entry/Knight Dream Arrival"
+[INFO]:[API] - Fetching objects for mod "CustomKnight"
+[INFO]:[API] - Fetching object "Dream Moth/Knight Dummy"
+[INFO]:[API] - Loading scene "Tutorial_01"
+[INFO]:[API] - Loading scene "Cliffs_02"
+[INFO]:[API] - Loading scene "Room_Jinn"
+[INFO]:[API] - Loading scene "Abyss_19"
+[INFO]:[API] - Loading scene "Crossroads_30"
+[INFO]:[API] - Fetching objects for mod "DebugMod"
+[INFO]:[API] - Fetching object "_Enemies/Buzzer"
+[INFO]:[API] - Fetching objects for mod "RandomizerMod"
+[INFO]:[API] - Fetching object "_Props/Chest/Item/Shiny Item (1)"
+[INFO]:[API] - Fetching object "_Enemies/Crawler 1"
+[INFO]:[API] - Fetching object "_Props/Cave Spikes (1)"
+[INFO]:[API] - Fetching object "_Markers/Death Respawn Marker"
+[INFO]:[API] - Fetching object "_Scenery/plat_float_17"
+[INFO]:[API] - Fetching object "_Props/Tut_tablet_top"
+[INFO]:[API] - Fetching object "_Props/Geo Rock 1"
+[INFO]:[API] - Fetching objects for mod "RandomizerMod"
+[INFO]:[API] - Fetching object "Soul Totem 5"
+[INFO]:[API] - Fetching objects for mod "RandomizerMod"
+[INFO]:[API] - Fetching object "Jinn NPC"
+[INFO]:[API] - Fetching objects for mod "RandomizerMod"
+[INFO]:[API] - Fetching object "Grub Bottle/Grub"
+[INFO]:[API] - Fetching object "Grub Bottle"
+[INFO]:[API] - Fetching objects for mod "Benchwarp"
+[INFO]:[API] - Fetching object "RestBench"
+[INFO]:[API] - Preload done, returning to main menu
+[INFO]:[API] - Main menu loading
+[INFO]:[API] - Loading ModdingApi Global Settings.
+[INFO]:[ModCommon] - Mod Common initializing!
+[INFO]:[ModCommon] - Global settings version match!
+[INFO]:[ModCommon] - Saving Global Settings
+[INFO]:[ModCommon] - Mod Common is done initializing!
+[INFO]:[CustomKnight] - Skin folder null: setting to default
+[INFO]:[CustomKnight] - Missing file Charm_0.png from folder Default.
+[INFO]:[CustomKnight] - Missing file Charms.png from folder Default.
+[INFO]:[CustomKnight] - Missing: Knight.png False
+[INFO]:[CustomKnight] - Missing: Sprint.png False
+[INFO]:[CustomKnight] - Missing: Shade.png False
+[INFO]:[CustomKnight] - Missing: ShadeOrb.png False
+[INFO]:[CustomKnight] - Missing: Wraiths.png False
+[INFO]:[CustomKnight] - Missing: VoidSpells.png False
+[INFO]:[CustomKnight] - Missing: VS.png False
+[INFO]:[CustomKnight] - Missing: Hud.png False
+[INFO]:[CustomKnight] - Missing: OrbFull.png False
+[INFO]:[CustomKnight] - Missing: Geo.png False
+[INFO]:[CustomKnight] - Missing: Dreamnail.png False
+[INFO]:[CustomKnight] - Missing: DreamArrival.png False
+[INFO]:[CustomKnight] - Missing: Unn.png False
+[INFO]:[CustomKnight] - Missing: Wings.png False
+[INFO]:[CustomKnight] - Missing: Quirrel.png False
+[INFO]:[CustomKnight] - Missing: Webbed.png False
+[INFO]:[CustomKnight] - Missing: Cloak.png False
+[INFO]:[CustomKnight] - Missing: Shriek.png False
+[INFO]:[CustomKnight] - Missing: Hornet.png False
+[INFO]:[CustomKnight] - Missing: Birthplace.png False
+[INFO]:[CustomKnight] - Missing: Baldur.png False
+[INFO]:[CustomKnight] - Missing: Fluke.png False
+[INFO]:[CustomKnight] - Missing: Grimm.png False
+[INFO]:[CustomKnight] - Missing: Shield.png False
+[INFO]:[CustomKnight] - Missing: Weaver.png False
+[INFO]:[CustomKnight] - Missing: Hatchling.png False
+[INFO]:[CustomKnight] - Missing: Charm_0.png True
+[INFO]:[CustomKnight] - Missing: Charm_1.png False
+[INFO]:[CustomKnight] - Missing: Charm_2.png False
+[INFO]:[CustomKnight] - Missing: Charm_3.png False
+[INFO]:[CustomKnight] - Missing: Charm_4.png False
+[INFO]:[CustomKnight] - Missing: Charm_5.png False
+[INFO]:[CustomKnight] - Missing: Charm_6.png False
+[INFO]:[CustomKnight] - Missing: Charm_7.png False
+[INFO]:[CustomKnight] - Missing: Charm_8.png False
+[INFO]:[CustomKnight] - Missing: Charm_9.png False
+[INFO]:[CustomKnight] - Missing: Charm_10.png False
+[INFO]:[CustomKnight] - Missing: Charm_11.png False
+[INFO]:[CustomKnight] - Missing: Charm_12.png False
+[INFO]:[CustomKnight] - Missing: Charm_13.png False
+[INFO]:[CustomKnight] - Missing: Charm_14.png False
+[INFO]:[CustomKnight] - Missing: Charm_15.png False
+[INFO]:[CustomKnight] - Missing: Charm_16.png False
+[INFO]:[CustomKnight] - Missing: Charm_17.png False
+[INFO]:[CustomKnight] - Missing: Charm_18.png False
+[INFO]:[CustomKnight] - Missing: Charm_19.png False
+[INFO]:[CustomKnight] - Missing: Charm_20.png False
+[INFO]:[CustomKnight] - Missing: Charm_21.png False
+[INFO]:[CustomKnight] - Missing: Charm_22.png False
+[INFO]:[CustomKnight] - Missing: Charm_23_Broken.png False
+[INFO]:[CustomKnight] - Missing: Charm_23_Fragile.png False
+[INFO]:[CustomKnight] - Missing: Charm_23_Unbreakable.png False
+[INFO]:[CustomKnight] - Missing: Charm_24_Broken.png False
+[INFO]:[CustomKnight] - Missing: Charm_24_Fragile.png False
+[INFO]:[CustomKnight] - Missing: Charm_24_Unbreakable.png False
+[INFO]:[CustomKnight] - Missing: Charm_25_Broken.png False
+[INFO]:[CustomKnight] - Missing: Charm_25_Fragile.png False
+[INFO]:[CustomKnight] - Missing: Charm_25_Unbreakable.png False
+[INFO]:[CustomKnight] - Missing: Charm_26.png False
+[INFO]:[CustomKnight] - Missing: Charm_27.png False
+[INFO]:[CustomKnight] - Missing: Charm_28.png False
+[INFO]:[CustomKnight] - Missing: Charm_29.png False
+[INFO]:[CustomKnight] - Missing: Charm_30.png False
+[INFO]:[CustomKnight] - Missing: Charm_31.png False
+[INFO]:[CustomKnight] - Missing: Charm_32.png False
+[INFO]:[CustomKnight] - Missing: Charm_33.png False
+[INFO]:[CustomKnight] - Missing: Charm_34.png False
+[INFO]:[CustomKnight] - Missing: Charm_35.png False
+[INFO]:[CustomKnight] - Missing: Charm_36_Black.png False
+[INFO]:[CustomKnight] - Missing: Charm_36_Full.png False
+[INFO]:[CustomKnight] - Missing: Charm_36_Left.png False
+[INFO]:[CustomKnight] - Missing: Charm_36_Right.png False
+[INFO]:[CustomKnight] - Missing: Charm_37.png False
+[INFO]:[CustomKnight] - Missing: Charm_38.png False
+[INFO]:[CustomKnight] - Missing: Charm_39.png False
+[INFO]:[CustomKnight] - Missing: Charm_40_1.png False
+[INFO]:[CustomKnight] - Missing: Charm_40_2.png False
+[INFO]:[CustomKnight] - Missing: Charm_40_3.png False
+[INFO]:[CustomKnight] - Missing: Charm_40_4.png False
+[INFO]:[CustomKnight] - Missing: Charm_40_5.png False
+[INFO]:[CustomKnight] - Missing: Charms.png True
+[WARN]:[Custom Knight] Couldn't find GUIController
+[INFO]:[GUI Controller] Building Canvas
+[INFO]:[Skin Swapper Panel] Building Skin Swapper Panel
+[INFO]:[DebugMod] - Initializing
+[INFO]:[DebugMod] - Building MethodInfo dict...
+[INFO]:[DebugMod] - Done! Time taken: 0.0003862381s. Found 91 methods
+[INFO]:[DebugMod] - Loaded image: AddEntry
+[INFO]:[DebugMod] - Loaded image: BlueGlow
+[INFO]:[DebugMod] - Loaded image: ButtonDel
+[INFO]:[DebugMod] - Loaded image: ButtonInf
+[INFO]:[DebugMod] - Loaded image: ButtonPlus
+[INFO]:[DebugMod] - Loaded image: ButtonRect
+[INFO]:[DebugMod] - Loaded image: ButtonRectEmpty
+[INFO]:[DebugMod] - Loaded image: ButtonsMenuBG
+[INFO]:[DebugMod] - Loaded image: CityKey
+[INFO]:[DebugMod] - Loaded image: ConsoleBg
+[INFO]:[DebugMod] - Loaded image: CrystalHeart
+[INFO]:[DebugMod] - Loaded image: DreamGate
+[INFO]:[DebugMod] - Loaded image: DreamGateDropdownBG
+[INFO]:[DebugMod] - Loaded image: DreamNail1
+[INFO]:[DebugMod] - Loaded image: DreamNail2
+[INFO]:[DebugMod] - Loaded image: DropdownBG
+[INFO]:[DebugMod] - Loaded image: ElegantKey
+[INFO]:[DebugMod] - Loaded image: EnemiesBg
+[INFO]:[DebugMod] - Loaded image: EnemiesPBg
+[INFO]:[DebugMod] - Loaded image: Essence
+[INFO]:[DebugMod] - Loaded image: Essence2
+[INFO]:[DebugMod] - Loaded image: Flower
+[INFO]:[DebugMod] - Loaded image: Geo
+[INFO]:[DebugMod] - Loaded image: HelpBG
+[INFO]:[DebugMod] - Loaded image: IsmasTear
+[INFO]:[DebugMod] - Loaded image: Kingsbrand
+[INFO]:[DebugMod] - Loaded image: Lantern
+[INFO]:[DebugMod] - Loaded image: LoveKey
+[INFO]:[DebugMod] - Loaded image: MantisClaw
+[INFO]:[DebugMod] - Loaded image: MapQuill
+[INFO]:[DebugMod] - Loaded image: MonarchWings
+[INFO]:[DebugMod] - Loaded image: MothwingCloak
+[INFO]:[DebugMod] - Loaded image: NailArt_CycloneSlash
+[INFO]:[DebugMod] - Loaded image: NailArt_DashSlash
+[INFO]:[DebugMod] - Loaded image: NailArt_GreatSlash
+[INFO]:[DebugMod] - Loaded image: PaleOre
+[INFO]:[DebugMod] - Loaded image: RancidEgg
+[INFO]:[DebugMod] - Loaded image: ScrollBarArrowDown
+[INFO]:[DebugMod] - Loaded image: ScrollBarArrowUp
+[INFO]:[DebugMod] - Loaded image: scrollbar_mid
+[INFO]:[DebugMod] - Loaded image: Scrollbar_point
+[INFO]:[DebugMod] - Loaded image: ShadeCloak
+[INFO]:[DebugMod] - Loaded image: SimpleKey
+[INFO]:[DebugMod] - Loaded image: SlyKey
+[INFO]:[DebugMod] - Loaded image: StatusPanelBG
+[INFO]:[DebugMod] - Loaded image: TramPass
+[INFO]:[RandomizerMod] - Language xml processed
+[INFO]:[RandomizerMod] - Parsed items.xml in 0.077977 seconds
+[INFO]:[Benchwarp] - Loaded image: ButtonRect
+[INFO]:[Benchwarp] - Loaded image: ButtonRectEmpty
+[INFO]:[Benchwarp] - Loaded image: ButtonsMenuBG
+[INFO]:[Benchwarp] - Loaded image: DropdownBG
+[INFO]:[API] - Saving Global Settings
+[INFO]:[API] - Saving Global Settings
+[INFO]:[Benchwarp] - Saving Global Settings
+[INFO]:[CustomKnight] - Saving Global Settings
+[INFO]:[QoL] - Saving Global Settings
+[INFO]:[RandomizerMod] - Saving Global Settings
+[INFO]:[DebugMod] - Saving Global Settings
+[INFO]:[DebugMod] - Saved
+[INFO]:[Benchwarp] - Saving Global Settings
