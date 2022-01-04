@@ -6,17 +6,8 @@ sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # merge in defaults and keymaps
-
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,33 +15,29 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# start some nice programs
-
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
-
 ### Custom ###
-# Set resolution
-xrandr --output DP-0 --mode 1920x1080 --rate 140.00
-xrandr --output DP-2 --mode 1920x1080 --rate 140.00 --primary --right-of DP-0
+# Swap esc and capslock for vim
+setxkbmap -option caps:swapescape
+
+# Disable mouse acceleration
+xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+
+# (Hopefully) fix keyboard glitch
+xinput float 9
+xinput float 16
+
+# Remove not used mouse's
+xinput float 11
+xinput float 12
+xinput float 13
+xinput float 17
 
 exec dbus-run-session bspwm

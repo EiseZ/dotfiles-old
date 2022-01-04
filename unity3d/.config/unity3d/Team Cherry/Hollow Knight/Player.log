@@ -3,7 +3,7 @@ Mono config path = '/mnt/HDD/SteamLibrary/steamapps/common/Hollow Knight/hollow_
 Preloaded 'libsteam_api.so'
 Display 0 '24G2W1G4 24"': 1920x1080 (primary device).
 Display 1 '24G2W1G4 24"': 1920x1080 (secondary device).
-Desktop is 1920 x 1080 @ 60 Hz
+Desktop is 1920 x 1080 @ 144 Hz
 [Vulkan init] extensions: count=18
 [Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
 [Vulkan init] extensions: name=VK_KHR_display, enabled=1
@@ -47,8 +47,8 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x1b50980 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2503
-[Vulkan init] Selected physical device 0x1b50980
+[Vulkan init] Physical Device 0x1e1a3a0 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2503
+[Vulkan init] Selected physical device 0x1e1a3a0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=140
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
@@ -199,7 +199,7 @@ Vulkan device type 2
 Vulkan driverversion=[0x75978000] uint=[1972862976]
 Vulkan PSO: cache data not found [path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.499 seconds
+- Completed reload, in  0.514 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -211,11 +211,11 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
-Desktop is 1920 x 1080 @ 60 Hz
+Desktop is 1920 x 1080 @ 144 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 0.991691 ms
+UnloadTime: 1.041551 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -236,39 +236,30 @@ Restored language code 'EN'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 1.162491 ms (FindLiveObjects: 0.141980 ms CreateObjectMapping: 0.070560 ms MarkObjects: 0.829191 ms  DeleteObjects: 0.120480 ms)
+Total: 1.298831 ms (FindLiveObjects: 0.144330 ms CreateObjectMapping: 0.069480 ms MarkObjects: 0.965821 ms  DeleteObjects: 0.118870 ms)
 
+Desktop is 1920 x 1080 @ 144 Hz
 Steam stats received.
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Didn't need to wait for PlayerPrefs load.
+Steam shut down.
 
-UnloadTime: 3.392872 ms
+UnloadTime: 3.527603 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
 
-Game controller set to None.
 
-pd.maxHealth: 9 pd.maxHealthBase: 9
-
-pd.maxHealth: 5 pd.maxHealthBase: 5
-
-pd.maxHealth: 5 pd.maxHealthBase: 5
-
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46220.
-Total: 118.210836 ms (FindLiveObjects: 1.865201 ms CreateObjectMapping: 0.694431 ms MarkObjects: 115.536494 ms  DeleteObjects: 0.114170 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 28466.
+Total: 83.958141 ms (FindLiveObjects: 0.867090 ms CreateObjectMapping: 0.412051 ms MarkObjects: 82.584130 ms  DeleteObjects: 0.094450 ms)
 
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 7f5abd02c640 -> priority: 1 
-  Thread -> id: 7f5abc82b640 -> priority: 1 
-  Thread -> id: 7f5abc02a640 -> priority: 1 
-  Thread -> id: 7f5abb829640 -> priority: 1 
-  Thread -> id: 7f5abb028640 -> priority: 1 
-  Thread -> id: 7f5aba827640 -> priority: 1 
-Shutting down Steam API.
-
-Vulkan PSO: data extracted [new size=220396, old size=0, incomplete=0]
-Vulkan PSO: Saved size[220396] path[/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+  Thread -> id: 7fb6c08b8640 -> priority: 1 
+  Thread -> id: 7fb67f131640 -> priority: 1 
+  Thread -> id: 7fb67e930640 -> priority: 1 
+  Thread -> id: 7fb67e12f640 -> priority: 1 
+  Thread -> id: 7fb67d92e640 -> priority: 1 
+  Thread -> id: 7fb67d12d640 -> priority: 1 
+Vulkan PSO: data extracted [new size=57754, old size=0, incomplete=0]
+Vulkan PSO: Saved size[57754] path[/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
 Waiting on threads to park on joinable thread list timed out.

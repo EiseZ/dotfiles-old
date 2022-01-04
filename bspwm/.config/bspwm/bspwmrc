@@ -5,9 +5,9 @@ bspc rule -r "*"
 killall "sxhkd"
 sxhkd &
 killall "picom"
-picom --experimental-backends &
+picom --experimental-backends -b &
 killall "feh"
-feh --bg-fill ~/wallpapers/brutusbrodie.png &
+feh --bg-fill ~/wallpapers/nord.png &
 killall "polybar"
 polybar bar1 &
 polybar bar2 &

@@ -57,6 +57,8 @@ set encoding=utf-8
 set cmdheight=1 " currently default
 " Remove -- INSERT -- at bottom of screen (not needed because of lightline)
 set noshowmode
+" Use system clipboard instead of vim internal clipboard
+set clipboard=unnamedplus
 
 """ Plugins
 "" Plugin installs
@@ -65,9 +67,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'nvim-lua/plenary.nvim'
     " File fuzzy finder
     Plug 'nvim-telescope/telescope.nvim'
+    " Filebrowser for telescope
+    Plug 'nvim-telescope/telescope-file-browser.nvim'
     " Nord colorscheme
     Plug 'arcticicestudio/nord-vim'
-    "" Autcomplete & Other IDE features
+    " Autcomplete & Other IDE features
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nerdtree file sidebar
     Plug 'preservim/nerdtree'
@@ -75,15 +79,58 @@ call plug#begin('~/.vim/plugged')
     Plug 'ryanoasis/vim-devicons'
     " Bar at bottom
     Plug 'itchyny/lightline.vim'
+    " Zen mode for writing
+    Plug 'folke/zen-mode.nvim'
+    " Glow for markdown viewing
+    Plug 'ellisonleao/glow.nvim'
 call plug#end()
 
 "" Plugin settings
+" Telescope & telescope file browser
+lua << EOF
+    local telescope = require("telescope")
+    telescope.setup {
+        extensions = {
+            file_browser = {
+               hidden = true -- Show hidden files in file broweser
+            }
+        }
+    }
+    require("telescope").load_extension "file_browser"
+    vim.api.nvim_set_keymap( -- Use ctrl + space to open the file browser
+        "n",
+        "<C-space>",
+        "<cmd>lua require 'telescope'.extensions.file_browser.file_browser()<CR> <C-h>",
+        {noremap = true}
+    )
+EOF
 " Lightline
 let g:lightline = { 'colorscheme': "nord" }
+" Zen-mode
+lua << EOF
+  require("zen-mode").setup {
+    window = {
+        width = 100, -- Width of x chars
+        backdrop = 1, -- Make sidebars same color as main color
+        options = {
+            relativenumber = false, -- No numbers in zen mode
+            number = false, -- Idem
+        }
+    },
+    plugins = {
+        kitty = {
+            enabled = true,
+            font = "+2", -- Increase font size
+        },
+    }
+  }
+EOF
 
 """ Colors
 " Enable 24 bit color
 set termguicolors
+" Let it work on kitty
+let &t_ut=''
 " Colorscheme
 colorscheme nord
 
@@ -96,8 +143,6 @@ let mapleader = " "
 command! -nargs=0 Format :CocCommand prettier.formatFile
 " Open nerdtree with ctrl + t
 nnoremap <C-t> :NERDTreeToggle<CR>
-" Open file searcher in telescope
-nnoremap <C-space> :Telescope find_files<CR>
 " Open autcompletion with ctrl space
 inoremap <silent><expr> <c-space> coc#refresh()
 " Complete with enter
@@ -106,7 +151,14 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " Press F2 to rename variable
-nnoremap <F2> <Plug>(coc-rename)
+nnoremap <F2> :%s//gc<Left><Left><Left>
+set clipboard=unnamedplus
+" Ctrl + z for zen mode
+noremap <C-z> :ZenMode<CR>
+" Ctrl + m for markdown viewing
+nnoremap <C-m> :Glow<CR>
+" Ctrl + o for opening file in new tab
+
 
 "" Autocmd
 augroup AUTOCMD
@@ -119,4 +171,4 @@ augroup AUTOCMD
      autocmd VimEnter * NERDTree | wincmd p
      " Clone vim if nerdtree is the only windows left
      autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-augroup END5
+augroup END4

@@ -24,7 +24,6 @@ alias ls="lsd"
 alias la="lsd -A"
 alias ll="lsd -l"
 alias lt="lsd --tree -d"
-alias dotfiles="git --git-dir=$HOME/dotfiles-repo/ --work-tree=$HOME"
 alias fm="joshuto"
 alias getpass="rbw ls | grep -i"
 alias todo="todo.sh"
@@ -32,13 +31,16 @@ alias rm="rm -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
 alias v="nvim"
+alias se="EDITOR=nvim sudoedit"
 alias rss="newsboat -u .config/newsboat/urls"
 
 ### Fetch ###
 # fm6000 -c blue -n -de="bspwm" -g=6 -l=12 -f /home/eisezimmerman/.config/fm6000/astronaut.txt
-echo ""
-echo ""
-neofetch
+if [[ $(tty) != "/dev/tty"* ]]; then
+    echo ""
+    echo ""
+    neofetch
+fi
 
 ### Syntax Highlighting ###
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

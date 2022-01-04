@@ -34,7 +34,7 @@ height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -56,7 +56,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Noto Sans Symbols2:size=10;1
 
 modules-left = bspwm
-modules-center = wname
+modules-center = xwindow
 modules-right = pulseaudio filesystem cpu temp memory date powermodule
 
 tray-position = right
@@ -85,7 +85,7 @@ height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -107,7 +107,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Noto Sans Symbols2;size=10
 
 modules-left = bspwm
-modules-center = wname
+modules-center = xwindow
 modules-right = date
 
 tray-position = none
@@ -128,10 +128,10 @@ scroll-down = bspwm-deskprev
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-;[module/xwindow]
-;type = internal/xwindow
-;label = %title:0:30:...%
-;
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
 ;[module/xkeyboard]
 ;type = internal/xkeyboard
 ;blacklist-0 = num lock
@@ -150,7 +150,7 @@ cursor-scroll = ns-resize
 
 [module/filesystem]
 type = internal/fs
-interval = 60
+interval = 120
 
 mount-0 = /
 
@@ -398,7 +398,6 @@ type = custom/script
 exec = echo ⏻
 format-underline = ${colors.primary}
 click-left = $HOME/scripts/powermenu.sh
-interval = 100000000000000
 
 ;[module/powermenu]
 ;type = custom/menu
