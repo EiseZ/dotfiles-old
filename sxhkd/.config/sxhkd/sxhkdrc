@@ -167,3 +167,7 @@ super + shift + n
 # Toggle compositor
 super + shift + c
     if [[ $(pgrep picom) ]]; then killall picom; else picom --experimental-backends; fi
+
+# Powermenu
+# super + shift + Caps_Lock
+#    $HOME/scripts/powermenu.sh

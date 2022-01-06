@@ -26,6 +26,9 @@ fi
 # Swap esc and capslock for vim
 setxkbmap -option caps:swapescape
 
+# Disable key repeat
+xset r off
+
 # Disable mouse acceleration
 xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1

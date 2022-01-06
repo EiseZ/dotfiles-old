@@ -83,6 +83,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'folke/zen-mode.nvim'
     " Glow for markdown viewing
     Plug 'ellisonleao/glow.nvim'
+    " Notes system like obsidian
+    Plug 'vimwiki/vimwiki'
 call plug#end()
 
 "" Plugin settings
@@ -125,6 +127,9 @@ lua << EOF
     }
   }
 EOF
+" Vimwiki
+let g:vimwiki_list = [ { "path": "$HOME/documents/notes/",
+                        \ "syntax": "markdown", "ext": ".md" }]
 
 """ Colors
 " Enable 24 bit color

@@ -31,3 +31,9 @@ to install them (on voidlinux)
 ```sh
 sudo xbps-install -S $(cat packages.txt)
 ```
+
+## Extra Files
+
+Files: (name) -> (location in repo) -> (location on system)
+
+-   xorg.conf -> X11/.config/X11/xorg.conf -> /etc/X11/xorg.conf
