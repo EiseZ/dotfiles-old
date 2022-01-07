@@ -27,10 +27,10 @@ bspc config pointer_modifier shift
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
-bspc config click_to_focus none
-
-bspc config focus_follows_pointer true
+bspc config gapless_monocle true
+bspc config click_to_focus true
 bspc config merge_overlapping_monitors true
+bspc config pointer_follows_monitor true
 
 bspc config top_padding 30
 bspc config bottom_padding 0

@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	st
 
 # program launcher
 super + @space
@@ -160,14 +160,10 @@ super + q
 super + shift + s
 	flameshot gui
 
-# Open notes
-super + shift + n
-  sh $HOME/scripts/notes.sh
-
 # Toggle compositor
 super + shift + c
     if [[ $(pgrep picom) ]]; then killall picom; else picom --experimental-backends; fi
 
 # Powermenu
-# super + shift + Caps_Lock
-#    $HOME/scripts/powermenu.sh
+control + shift + Delete
+    $HOME/scripts/powermenu.sh

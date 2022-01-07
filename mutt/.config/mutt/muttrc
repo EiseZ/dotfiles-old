@@ -1,0 +1,23 @@
+# Personal account
+set folder = "imaps://eise.zimmerman@outlook.com@outlook.office365.com:993"
+set smtp_url = "smtp://eise.zimmerman@outlook.com@smtp-mail.outlook.com:587"
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+set imap_pass=`gpg -dq $HOME/.config/mutt/pass.gpg`
+set smtp_pass=`gpg -dq $HOME/.config/mutt/pass.gpg`
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk =Other
+
+set from = "eise.zimmerman@outlook.com"
+set realname = "Eise Zimmerman"
+
+set ssl_force_tls = yes
+set smtp_authenticators = "login"
+
+set editor = nvim
+set read_inc=50
+
+source colors.muttrc

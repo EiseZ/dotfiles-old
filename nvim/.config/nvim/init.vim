@@ -1,4 +1,4 @@
-""" QOL Customization
+"" QOL Customization
 "" Tabs
 " Set tab length
 set tabstop=4 softtabstop=4
@@ -15,17 +15,17 @@ set relativenumber
 set nu
 
 "" Search
-" Dont highlight the search when you have selected one
+" Don't highlight the search when you have selected one
 set nohlsearch
 " Only match capitals if there is one in the search query
 set smartcase
 
 "" History
-" Dont create swapfile
+" Don't create swapfile
 set noswapfile
 " Make backup
 set backup
-" Where to put packup files
+" Where to put backup files
 set backupdir=~/.cache/vim/backupdir
 " Keep undofiles
 set undofile
@@ -33,7 +33,7 @@ set undofile
 set undodir=~/.cache/vim/undodir
 
 "" IDE Features
-" Show autocomplete always if there is a match, dont auto fill unless done by the user
+" Show autocomplete always if there is a match, don't auto fill unless done by the user
 set completeopt=menuone,noinsert,preview
 " Show column in front of line numbers with symbols for errors, hints, etc.
 set signcolumn=yes
@@ -49,7 +49,7 @@ set hidden
 set noerrorbells
 " Start scrolling when x line away from top or bottom
 set scrolloff=8
-" Set update time lower (less noticable delay)
+" Set update time lower (less noticeable delay)
 set updatetime=50
 " Set encoding
 set encoding=utf-8
@@ -71,7 +71,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'nvim-telescope/telescope-file-browser.nvim'
     " Nord colorscheme
     Plug 'arcticicestudio/nord-vim'
-    " Autcomplete & Other IDE features
+    " Autocomplete & Other IDE features
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nerdtree file sidebar
     Plug 'preservim/nerdtree'
@@ -94,7 +94,7 @@ lua << EOF
     telescope.setup {
         extensions = {
             file_browser = {
-               hidden = true -- Show hidden files in file broweser
+               hidden = true -- Show hidden files in file browser
             }
         }
     }
@@ -147,8 +147,8 @@ let mapleader = " "
 " Use the :Format command to format
 command! -nargs=0 Format :CocCommand prettier.formatFile
 " Open nerdtree with ctrl + t
-nnoremap <C-t> :NERDTreeToggle<CR>
-" Open autcompletion with ctrl space
+nnoremap <leader>t :NERDTreeToggle<CR>
+" Open autocompletion with ctrl space
 inoremap <silent><expr> <c-space> coc#refresh()
 " Complete with enter
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -156,13 +156,13 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " Press F2 to rename variable
-nnoremap <F2> :%s//gc<Left><Left><Left>
-set clipboard=unnamedplus
+nnoremap <leader>r :%s//gc<Left><Left><Left>
 " Ctrl + z for zen mode
-noremap <C-z> :ZenMode<CR>
+noremap <leader>z :ZenMode<CR>
 " Ctrl + m for markdown viewing
-nnoremap <C-m> :Glow<CR>
-" Ctrl + o for opening file in new tab
+nnoremap <leader>m :Glow<CR>
+" Enable spellcheking
+nnoremap <leader>s :set spell! spelllang=nl_nl,en_us<CR>
 
 
 "" Autocmd

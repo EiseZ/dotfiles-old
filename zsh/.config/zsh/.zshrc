@@ -24,7 +24,7 @@ alias ls="lsd"
 alias la="lsd -A"
 alias ll="lsd -l"
 alias lt="lsd --tree -d"
-alias fm="joshuto"
+alias fm="vifm"
 alias getpass="rbw ls | grep -i"
 alias todo="todo.sh"
 alias rm="rm -i"
@@ -39,7 +39,7 @@ alias rss="newsboat -u .config/newsboat/urls"
 if [[ $(tty) != "/dev/tty"* ]]; then
     echo ""
     echo ""
-    neofetch
+    neofetch --colors 4 4 4 4 --ascii_colors 2 7
 fi
 
 ### Syntax Highlighting ###
