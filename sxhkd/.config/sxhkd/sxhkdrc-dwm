@@ -1,0 +1,68 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	st
+
+# program launcher
+super + @space
+	rofi -show run
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#
+#
+# Custom
+#
+#
+
+#
+# Multimedia
+#
+
+XF86AudioMute
+    pactl set-sink-mute 0 toggle;\
+    pactl set-sink-mute 7 toggle;\
+    pactl set-sink-mute 2 toggle
+
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +5%;\
+    pactl set-sink-volume 7 +5%;\
+    pactl set-sink-volume 2 +5%
+
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -5%;\
+    pactl set-sink-volume 7 -5%;\
+    pactl set-sink-volume 2 -5%
+
+ctrl + {XF86AudioMute,XF86AudioRaiseVolume,XF86AudioLowerVolume}
+    if [[ $(pactl get-default-sink) == "alsa_output.usb-Logitech_PRO_X_000000000000-00.analog-stereo" ]]; then pactl set-default-sink alsa_output.pci-0000_2b_00.1.hdmi-stereo; else pactl set-default-sink alsa_output.usb-Logitech_PRO_X_000000000000-00.analog-stereo; fi
+
+#
+# Misc
+#
+
+# firefox google search
+super + q
+	sh /home/eisezimmerman/scripts/rofi/web-search.sh
+
+# Screenshot
+super + shift + s
+	flameshot gui &
+
+# Toggle compositor
+super + shift + c
+    if [[ $(pgrep picom) ]]; then killall picom; else picom --experimental-backends; fi
+
+# Powermenu
+control + alt + Delete
+    $HOME/scripts/powermenu.sh
+
+
+
+control + alt + shift + q
+    killall dwm

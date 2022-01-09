@@ -19,5 +19,7 @@ set smtp_authenticators = "login"
 
 set editor = nvim
 set read_inc=50
+bind pager k previous-line
+bind pager j next-line
 
 source colors.muttrc

@@ -158,12 +158,17 @@ super + q
 
 # Screenshot
 super + shift + s
-	flameshot gui
+	flameshot gui &
 
 # Toggle compositor
 super + shift + c
     if [[ $(pgrep picom) ]]; then killall picom; else picom --experimental-backends; fi
 
 # Powermenu
-control + shift + Delete
+control + alt + Delete
     $HOME/scripts/powermenu.sh
+
+
+
+control + alt + shift + q
+    killall dwm

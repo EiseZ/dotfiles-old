@@ -3,7 +3,7 @@ bspc rule -r "*"
 
 ### Start Programs ###
 killall "sxhkd"
-sxhkd &
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc-bspwm &
 killall "picom"
 picom --experimental-backends -b &
 killall "feh"

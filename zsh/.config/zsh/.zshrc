@@ -37,9 +37,7 @@ alias rss="newsboat -u .config/newsboat/urls"
 ### Fetch ###
 # fm6000 -c blue -n -de="bspwm" -g=6 -l=12 -f /home/eisezimmerman/.config/fm6000/astronaut.txt
 if [[ $(tty) != "/dev/tty"* ]]; then
-    echo ""
-    echo ""
-    neofetch --colors 4 4 4 4 --ascii_colors 2 7
+    pfetch
 fi
 
 ### Syntax Highlighting ###
