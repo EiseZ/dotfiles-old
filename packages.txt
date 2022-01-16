@@ -26,6 +26,7 @@ htop-3.1.2_1
 i2c-tools-4.3_1
 inkscape-1.1.1_2
 ipafont-fonts-otf-003.03_4
+kicad-5.1.11_4
 kitty-0.23.1_2
 libX11-devel-1.7.3.1_1
 libXft-devel-2.3.4_1
@@ -38,7 +39,9 @@ libjpeg-turbo-devel-2.1.1_1
 libpcap-devel-1.10.1_1
 libressl-devel-3.1.5_2
 libstdc++-32bit-10.2.1pre1_3
+libvirt-7.10.0_1
 libxcb-devel-1.14_2
+lm_sensors-3.6.0_1
 lsd-0.20.1_1
 lutris-0.5.9.1_1
 lxappearance-0.6.3_5
@@ -98,6 +101,7 @@ xorg-7.6_6
 xorriso-1.5.4.pl02_1
 xterm-370_1
 yarn-1.22.10_1
+youtube-dl-2021.12.17_1
 zathura-0.4.8_1
 zathura-pdf-poppler-0.3.0_1
 zlib-devel-1.2.11_4

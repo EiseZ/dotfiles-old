@@ -16,5 +16,6 @@
             "filetypes": ["hs", "lhs", "haskell"],
             "formattingProvider": "brittany"
         }
-    }
+    },
+    "svelte.enable-ts-plugin": true
 }
