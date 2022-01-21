@@ -26,10 +26,6 @@ fi
 # Swap esc and capslock for vim
 setxkbmap -option caps:swapescape
 
-# Disable mouse acceleration
-xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
-xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
-
 # (Hopefully) fix keyboard glitch
 xinput float 9
 xinput float 16
@@ -44,5 +40,7 @@ sxhkd -c $HOME/.config/sxhkd/sxhkdrc-dwm &
 feh --bg-fill ~/wallpapers/nord.png &
 picom --experimental-backends -b &
 pulseaudio --start
+
+slock
 
 exec dbus-run-session dwm

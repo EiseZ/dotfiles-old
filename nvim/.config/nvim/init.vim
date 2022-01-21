@@ -85,6 +85,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'ellisonleao/glow.nvim'
     " Notes system like obsidian
     Plug 'vimwiki/vimwiki'
+    " Live latex documents preview
+    Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 call plug#end()
 
 "" Plugin settings
@@ -130,6 +132,10 @@ EOF
 " Vimwiki
 let g:vimwiki_list = [ { "path": "$HOME/documents/notes/",
                         \ "syntax": "markdown", "ext": ".md" }]
+" Vim latex live preview
+" Zatrhura as editor
+let g:livepreview_previewer = 'zathura'
+let g:livepreview_use_biber = 1
 
 """ Colors
 " Enable 24 bit color
@@ -163,6 +169,8 @@ noremap <leader>z :ZenMode<CR>
 nnoremap <leader>m :Glow<CR>
 " Enable spellcheking
 nnoremap <leader>s :set spell! spelllang=nl_nl,en_us<CR>
+" Enable latex live preview
+nnoremap <leader>l :LLPStartPreview<CR>
 
 
 "" Autocmd

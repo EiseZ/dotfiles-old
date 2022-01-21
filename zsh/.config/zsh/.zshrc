@@ -17,7 +17,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 # eval "$(starship init zsh)"
 PS1="%F{blue}%2~ %(?.->.%F{red}~>) "
 
-export PATH="$PATH:$(yarn global bin):$HOME/.local/bin:$HOME/downloads/apps/steamcmd:/opt/metasploit-framework"
+export PATH="$PATH:$(yarn global bin):$HOME/.local/bin:$HOME/downloads/apps/steamcmd:/opt/metasploit-framework:/usr/local/texlive/2021/bin/x86_64-linux"
 
 ### Alias' ###
 alias ls="lsd"
