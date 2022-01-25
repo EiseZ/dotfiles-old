@@ -59,6 +59,8 @@ set cmdheight=1 " currently default
 set noshowmode
 " Use system clipboard instead of vim internal clipboard
 set clipboard=unnamedplus
+" Column on 80 chart text width
+set colorcolumn=80
 
 """ Plugins
 "" Plugin installs
@@ -171,6 +173,18 @@ nnoremap <leader>m :Glow<CR>
 nnoremap <leader>s :set spell! spelllang=nl_nl,en_us<CR>
 " Enable latex live preview
 nnoremap <leader>l :LLPStartPreview<CR>
+
+"" Enable copy and pasting
+function! ClipboardYank()
+  call system('xclip -i -selection clipboard', @@)
+endfunction
+function! ClipboardPaste()
+  let @@ = system('xclip -o -selection clipboard')
+endfunction
+
+vnoremap <silent> y y:call ClipboardYank()<cr>
+vnoremap <silent> d d:call ClipboardYank()<cr>
+nnoremap <silent> p :call ClipboardPaste()<cr>p
 
 
 "" Autocmd

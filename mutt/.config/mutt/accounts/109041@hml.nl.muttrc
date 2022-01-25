@@ -1,0 +1,22 @@
+# vim: filetype=neomuttrc
+# muttrc file for account 109041@hml.nl
+set realname = "109041"
+set from = "109041@hml.nl"
+set sendmail = "msmtp -a 109041@hml.nl"
+alias me 109041 <109041@hml.nl>
+set folder = "/home/eisezimmerman/.local/share/mail/109041@hml.nl"
+set header_cache = /home/eisezimmerman/.cache/mutt-wizard/109041@hml.nl/headers
+set message_cachedir = /home/eisezimmerman/.cache/mutt-wizard/109041@hml.nl/bodies
+set mbox_type = Maildir
+set hostname = "hml.nl"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = +INBOX
+set postponed = +Drafts
+set trash = +Trash
+set record = +Sent
+
+macro index o "<shell-escape>mw -y 109041@hml.nl<enter>" "run mbsync to sync 109041@hml.nl"
+macro index \eg "<enter-command>unset wait_key<enter><shell-escape>gpg --list-secret-keys; printf 'Enter email ID of user to publish: '; read eID; printf 'Enter fingerprint of GPG key to publish: '; read eFGPT; /usr/local/libexec/gpg-wks-client --create \$eFGPT \$eID | msmtp --read-envelope-from --read-recipients -a 109041@hml.nl<enter>"  "publish GPG key to WKS provider"
+macro index \eh "<pipe-message>/usr/local/libexec/gpg-wks-client --receive | msmtp --read-envelope-from --read-recipients -a 109041@hml.nl<enter>" "confirm GPG publication"
+
+mailboxes "=Agenda/Feestdagen in Nederland" "=Agenda/Verjaardagen" "=Archief" "=Archive" "=Concepten" "=Junk" "=Logboek" "=Notities" "=Ongewenste e-mail" "=INBOX" "=Postvak UIT" "=Taken" "=Verwijderde items" "=Verzonden items"

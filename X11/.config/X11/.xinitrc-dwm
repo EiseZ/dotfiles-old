@@ -37,10 +37,9 @@ xinput float 13
 xinput float 17
 
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc-dwm &
-feh --bg-fill ~/wallpapers/nord.png &
+xwallpaper --zoom $HOME/wallpapers/nord_1080p_2mon.png &
 picom --experimental-backends -b &
-pulseaudio --start
-
-slock
+pulseaudio --start &
+dwmblocks &
 
 exec dbus-run-session dwm

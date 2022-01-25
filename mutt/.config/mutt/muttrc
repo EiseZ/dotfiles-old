@@ -1,25 +1,11 @@
 # Personal account
-set folder = "imaps://eise.zimmerman@outlook.com@outlook.office365.com:993"
-set smtp_url = "smtp://eise.zimmerman@outlook.com@smtp-mail.outlook.com:587"
-set spoolfile = "+INBOX"
-set record = "+Sent"
-set trash = "+Trash"
-set postponed = "+Drafts"
-
-set imap_pass=`gpg -dq $HOME/.config/mutt/pass.gpg`
-set smtp_pass=`gpg -dq $HOME/.config/mutt/pass.gpg`
-
-mailboxes =INBOX =Sent =Trash =Drafts =Junk =Other
-
-set from = "eise.zimmerman@outlook.com"
-set realname = "Eise Zimmerman"
-
-set ssl_force_tls = yes
-set smtp_authenticators = "login"
-
 set editor = nvim
 set read_inc=50
 bind pager k previous-line
 bind pager j next-line
 
 source colors.muttrc
+source /usr/local/share/mutt-wizard/mutt-wizard.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/eisezimmerman/.config/mutt/accounts/eise.zimmerman@outlook.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to eise.zimmerman@outlook.com"
+macro index,pager i2 '<sync-mailbox><enter-command>source /home/eisezimmerman/.config/mutt/accounts/109041@hml.nl.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to 109041@hml.nl"
+macro index,pager i3 '<sync-mailbox><enter-command>source /home/eisezimmerman/.config/mutt/accounts/eiscomania@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to eiscomania@gmail.com"
