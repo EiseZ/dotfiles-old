@@ -26,19 +26,9 @@ fi
 # Swap esc and capslock for vim
 setxkbmap -option caps:swapescape
 
-# (Hopefully) fix keyboard glitch
-xinput float 9
-xinput float 16
-
-# Remove not used mouse's
-xinput float 11
-xinput float 12
-xinput float 13
-xinput float 17
-
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc-dwm &
-xwallpaper --zoom $HOME/wallpapers/nord_1080p_2mon.png &
-picom --experimental-backends -b &
+xwallpaper --no-randr --zoom $HOME/wallpapers/nord_1080p_2mon.png &
+picom &
 pulseaudio --start &
 dwmblocks &
 

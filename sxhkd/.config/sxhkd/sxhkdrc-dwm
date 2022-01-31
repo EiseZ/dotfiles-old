@@ -25,19 +25,13 @@ super + Escape
 #
 
 XF86AudioMute
-    pactl set-sink-mute 0 toggle;\
-    pactl set-sink-mute 1 toggle;\
-    pactl set-sink-mute 2 toggle
+    $HOME/scripts/audio.sh toggle
 
 XF86AudioRaiseVolume
-    pactl set-sink-volume 0 +5%;\
-    pactl set-sink-volume 1 +5%;\
-    pactl set-sink-volume 2 +5%
+    $HOME/scripts/audio.sh set-volume +5%
 
 XF86AudioLowerVolume
-    pactl set-sink-volume 0 -5%;\
-    pactl set-sink-volume 1 -5%;\
-    pactl set-sink-volume 2 -5%
+    $HOME/scripts/audio.sh set-volume -5%
 
 ctrl + {XF86AudioMute,XF86AudioRaiseVolume,XF86AudioLowerVolume}
     if [[ $(pactl get-default-sink) == "alsa_output.usb-Logitech_PRO_X_000000000000-00.analog-stereo" ]]; then pactl set-default-sink alsa_output.pci-0000_2b_00.1.hdmi-stereo; else pactl set-default-sink alsa_output.usb-Logitech_PRO_X_000000000000-00.analog-stereo; fi
@@ -56,7 +50,7 @@ super + shift + s
 
 # Toggle compositor
 super + shift + c
-    if [[ $(pgrep picom) ]]; then killall picom; else picom --experimental-backends; fi
+    if [[ $(pgrep picom) ]]; then killall picom; else picom -b; fi
 
 # Powermenu
 control + alt + Delete
